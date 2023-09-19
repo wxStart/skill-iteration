@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   css: {
     modules: {
-      localsConvention: 'camelCase',//! 处理index.module.css 中 .head-title可以通过 style.headTitle 方式访问
+      localsConvention: 'camelCase', //! 处理index.module.css 中 .head-title可以通过 style.headTitle 方式访问
     },
   },
 });

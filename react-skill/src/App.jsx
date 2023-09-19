@@ -1,14 +1,14 @@
 import './App.css';
 
-import ModuleCss from './components/module-css/Index.jsx';
-import EventIndex from './components/event/Index.jsx';
-import PropsIndex from './components/props/Index.jsx';
+// import Index from './components/module-css/Index.jsx';
+// import Index from './components/event/Index.jsx';
+// import Index from './components/props/Index.jsx';
+// import Index from './components/states/Index.jsx';
+import Index from './components/states/Index2.jsx';
 function App() {
   return (
     <>
-      <ModuleCss></ModuleCss>
-      <EventIndex />
-      <PropsIndex></PropsIndex>
+      <Index></Index>
     </>
   );
 }
