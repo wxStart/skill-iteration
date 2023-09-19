@@ -40,7 +40,7 @@ export default function () {
   ]);
   function handleClick() {
     lists.push({ id: 2, name: '22' }); // 可以使用use-immer这个库区解决
-    setLists(lists); // lists  setLists之前和之后都没有改变 
+    setLists(lists); // lists  setLists之前和之后都没有改变
     // setLists([...lists, { id: 3, name: '333' }]);
   }
   return (
