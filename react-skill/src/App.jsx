@@ -7,7 +7,9 @@ import './App.css';
 // import Index from './components/states/Index2.jsx';
 // import Index from './components/states/Index3.jsx';
 // import Index from './components/hooks/RefsIndex.jsx';
-import Index from './components/hooks/EffectIndex.jsx';
+// import Index from './components/hooks/EffectIndex.jsx';
+import Index from './components/hooks/ContextIndex.jsx';
+
 function App() {
   return (
     <>

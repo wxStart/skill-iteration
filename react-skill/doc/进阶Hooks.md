@@ -16,3 +16,11 @@
 ####  useLayoutEffect 同步执行状态更新  
 
 useEffect 是在渲染被绘制到屏幕之后执行的，是异步的； useLayoutEffect 是在渲染之后但在屏幕更新之前，是同步的
+
+####  Context 向组件深层传递数据 垮组件传值
+
+#### memo
+允许props不变化的情况下不对组件重新渲染，进行优化用的
+
+
+
