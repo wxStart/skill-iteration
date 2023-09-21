@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useLayoutEffect, useInsertionEffect } from 'react';
 console.log('useCallback: ', useCallback);
 
 // export default function App() {
@@ -69,48 +69,76 @@ console.log('useCallback: ', useCallback);
 // }
 
 //! effect中的清理公共  返回一个函数
-function C() {
-  const [count, setCount] = useState(1);
+// function C() {
+//   const [count, setCount] = useState(1);
 
-  useEffect(() => {
-    console.log('执行了');
-    return () => {
-      // 作用域为当前作用域
-      // 再次执行这个useEffect 的时候会先执行返回的回调函数, 卸载的时候也会执行
-      console.log('再次执行这个useEffect 的时候会先执行返回的回调函数', count);
-    };
-  }, [count]);
-  function handleClick() {
-    setCount(count + 1);
-  }
-  return <button onClick={handleClick}>点击{count}</button>;
-}
+//   useEffect(() => {
+//     console.log('执行了');
+//     return () => {
+//       // 作用域为当前作用域
+//       // 再次执行这个useEffect 的时候会先执行返回的回调函数, 卸载的时候也会执行
+//       console.log('再次执行这个useEffect 的时候会先执行返回的回调函数', count);
+//     };
+//   }, [count]);
+//   function handleClick() {
+//     setCount(count + 1);
+//   }
+//   return <button onClick={handleClick}>点击{count}</button>;
+// }
+// export default function App() {
+//   const [show, setShow] = useState(true);
+
+//   const [count, setCount] = useState(1);
+//   useEffect(() => {
+//     console.log(1);
+//   });
+
+//   useLayoutEffect(() => {
+//     // 解决一些闪烁的问题  他会执行完成后才会渲染， 可以认为是同步  所有的js执行完了后立即执行此函数
+//     console.log(2);
+//   });
+
+//   function handleClick2() {
+//     setCount(count + 1);
+//   }
+
+//   function handleClick() {
+//     setShow(!show);
+//   }
+//   return (
+//     <>
+//       <h2>useEffect</h2>
+//       <button onClick={handleClick2}>count {count} </button>
+//       <button onClick={handleClick}>加载、卸载 </button>
+//       <br />
+//       {show && <C></C>}
+//     </>
+//   );
+// }
+
+//!
 export default function App() {
-  const [show, setShow] = useState(true);
-
   const [count, setCount] = useState(1);
-
   useEffect(() => {
     console.log(1);
-    return () => {
-      // 再次执行这个useEffect 的时候会先执行返回的回调函数, 卸载的时候也会执行
-      console.log('再次执行这个useEffect 的时候会先执行返回的回调函数');
-    };
-  }, [count]);
+  });
+
+  useLayoutEffect(() => {
+    // 解决一些闪烁的问题  他会执行完成后才会渲染， 可以认为是同步  所有的js执行完了后立即执行此函数
+    console.log(2);
+  });
+  useInsertionEffect(() => {
+    console.log(3);
+  });
   function handleClick2() {
     setCount(count + 1);
   }
 
-  function handleClick() {
-    setShow(!show);
-  }
   return (
     <>
       <h2>useEffect</h2>
       <button onClick={handleClick2}>count {count} </button>
-      <button onClick={handleClick}>加载、卸载 </button>
       <br />
-      {show && <C></C>}
     </>
   );
 }
