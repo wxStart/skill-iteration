@@ -27,3 +27,15 @@ useEffect 是在渲染被绘制到屏幕之后执行的，是异步的； useLay
 
 主要是 通过函数 对一个固定的非原始类型数据进行包装，使每次返回的是原来的数据而不是新数据，比如 {}!={}
 ` const lists = useMemo(() => [message.toLocaleUpperCase()], [message])`
+
+
+
+#### statTransition  以及并发模式
+
+1. react18 之前渲染是一个单一的、不间断的、同步的事务，一旦渲染开始，就不能被中断
+2. react18引入并发模式，它允许你将标记更新作为一个transitions，这会告诉React他们可以被中断执行。这样可以吧紧急的任务先更新，不紧急的任务后更新
+##### useTransition
+
+useTransition 是一个任你搞在不阻塞UI的情况下来更新状态的，返回一个状态
+##### useDeferredValue
+ 接受一个值，并返回该值的副本，该副本将推迟到更紧致的更新之后
