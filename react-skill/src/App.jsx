@@ -8,8 +8,8 @@ import './App.css';
 // import Index from './components/states/Index3.jsx';
 // import Index from './components/hooks/RefsIndex.jsx';
 // import Index from './components/hooks/EffectIndex.jsx';
-import Index from './components/hooks/ContextIndex.jsx';
-
+// import Index from './components/hooks/ContextIndex.jsx';
+import Index from './components/hooks/MemoIndex.jsx';
 function App() {
   return (
     <>
