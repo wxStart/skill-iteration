@@ -10,8 +10,10 @@ import './App.css';
 // import Index from './components/hooks/EffectIndex.jsx';
 // import Index from './components/hooks/ContextIndex.jsx';
 // import Index from './components/hooks/MemoIndex.jsx';
-import Index from './components/hooks/StatTransition.jsx';
-
+// import Index from './components/hooks/StatTransition.jsx';
+// import Index from './components/flushSync/Index.jsx';
+// import Index from './components/lazy/Index.jsx';
+import Index from './components/createPortal/Index.jsx';
 function App() {
   return (
     <>
