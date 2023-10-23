@@ -32,3 +32,29 @@
 
 #### JSX的补充说明：   
 第一次渲染页面是直接把virtualDOM --> 真实dom，后面视图更新时候，需要经过DOM-DIFF计算出补丁包PATCH（两次视图差异部分），把PATCH补丁包进行渲染
+
+
+#### 函组件的渲染
+```
+// babel-preset-react-app
+
+// 调用
+<DomeOne title={"123"} className="box" >123</DomeOne>
+
+React.createElement(DomeOne, {
+  title: "123",
+  className: "box"
+}, "123");
+
+
+// 虚拟Dom的type是函数
+
+// 渲染时候 执行函数并且把虚拟dom中解析props作为参数传递给函数
+
+```
+
+#### props
+1. 特点： 传递过来props是“只读”的只能使用不能修改
+2. 作用： 提高组件的复用性，适配更多的应用场景
+3. 限制类型：对prop的属性就行类型限制或者是设置默认值
+

@@ -30,7 +30,7 @@ TypeBase.defaultProps = {
 };
 
 TypeBase.propTypes = {
-  id: PropsTypes.number,
+  id: PropsTypes.oneOfType([PropsTypes.number, PropsTypes.string]),
   msg: PropsTypes.string,
 };
 

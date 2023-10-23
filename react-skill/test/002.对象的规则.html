@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对象的规则</title>
+</head>
+<body>
+
+    <div>
+        <h3>冻结</h3>
+        <div>冻结对象：Object.freeze(obj)</div>
+        <div>检测是否被冻结：Object.isFrozen(obj)</div>
+        <div>特点：不可修改，不可新增，不可删除，不可被劫持</div>
+    </div>
+    
+    <div>
+        <h3>密封</h3>
+        <div>密封对象：Object.seal(obj)</div>
+        <div>检测是否被密封：Object.isSealed(obj)</div>
+        <div>特点：可修改，不可新增，不可删除，不可被劫持</div>
+    </div>
+
+    <div>
+        <h3>扩展</h3>
+        <div>对象不可扩展：Object.preventExtensions(obj)</div>
+        <div>检测是否可扩展：Object.isExtensible(obj)</div>
+        <div>特点：不可新增，其他都可操作</div>
+    </div>
+    <div>总结： 被冻结的对象即是不可扩展也是密封的，密封的对象也必是不可扩展的</div>
+</body>
+</html>
