@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>对象迭代</title>
+  </head>
+  <body>
+    <div>
+      <h3>for ... in 迭代</h3>
+      <div>1、性能比较差：既可以迭代私有的，也可以迭代共有的属性，比如原型上的</div>
+      <div>2、只能迭代可枚举的非Symbol类型的属性</div>
+
+      <h3>getOwnPropertyNames 和 getOwnPropertySymbols</h3>
+      <div>getOwnPropertyNames：获取非Symbol类型的不区分是否可枚举</div>
+      <div>getOwnPropertySymbols：获取Symbol类型的不区分是否可枚举</div>
+
+      <h3>Reflect.ownKeys</h3>
+      <div>获取所有的私有属性</div>
+    </div>
+    <script>
+      Array.prototype.BB = '这里是原型上的BB';
+      const arr = [1, 2];
+      arr[Symbol('bb')] = 3;
+      console.log(arr);
+      for (const key in arr) {
+        console.log('key: ', key);
+      }
+
+      // 获取对象所有的私有的，不论是否可枚举，不论类型
+
+      console.log(Object.getOwnPropertyNames(arr)); // 获取非Symbol类型的不区分是否可枚举
+      console.log(Object.getOwnPropertySymbols(arr)); // 获取Symbol类型的不区分是否可枚举
+      console.log(Reflect.ownKeys(arr)); // 获取所有的私有属性 不兼容ie
+    </script>
+  </body>
+</html>
