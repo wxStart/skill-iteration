@@ -13,7 +13,8 @@ import './App.css';
 // import Index from './components/hooks/StatTransition.jsx';
 // import Index from './components/flushSync/Index.jsx';
 // import Index from './components/lazy/Index.jsx';
-import Index from './components/createPortal/Index.jsx';
+// import Index from './components/createPortal/Index.jsx';
+import Index from './components/slot/Index.jsx';
 function App() {
   return (
     <>
