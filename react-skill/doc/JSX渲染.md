@@ -58,3 +58,57 @@ React.createElement(DomeOne, {
 2. 作用： 提高组件的复用性，适配更多的应用场景
 3. 限制类型：对prop的属性就行类型限制或者是设置默认值
 
+
+#### root.render 渲染
+1. type 是字符串： 创建一个标签
+2. type 是普通函数：把函数执行，并且把props传给函数
+3. type 是构造函数： 把构造函数new执行（实例化），同时会把解析出来的props传递过去
+
+
+#### class组件的渲染 Component / pureComponent
+
+V16版本：
+##### 类组件第一次执行逻辑
+1. 初始化属性和规则校验   
+```
+  方案一： 利用constructor
+  constructor(props){
+    super(props)// 这里就是把props挂载到this实例上
+    console.log(tihs.props) // 可以拿到
+  }
+  方案二： 不在constructor中处理，或者不写constructor ，React内部也会在constructor处理完毕后吧props挂载到实例中，所以其他函数中是可以访问到this.props
+
+
+```
+2. 初始化状态
+  ```
+  state={}
+
+  更新通过 setState，
+  强制更新 forceUpdate函数
+  ```
+3. 执行生命周期 （componentWillMount[不安全的生命周期]）
+
+4. 执行render方法
+
+5. 执行生命周期 （componentDidMount）
+
+##### 类组件更新逻辑
+1. shouldComponentUpdate(nextProps,nextState)    
+  返回true/false进行判断是否允许更新
+2. componentWillUpdate(nextProps,nextState)[不安全的生命周期]
+3. 修改状态值
+4. 触发render
+   按照最新的状态值和属性值把jsx编译成新的virtualDom；和上一次的virtualDom进行对比diff；把差异部分渲染为真实的dom
+5. componentDidUpdate
+
+特殊处理：
+1. 如果是forceUpdate 则跳过shouldComponentUpdate直接执行componentWillUpdate后续操作
+2. componentWillReceiveProps(nextProps) 是父组件传给子组件的props改变时候执行  比  shouldComponentUpdate 还提前   
+
+##### PureComponent 和Component的区别
+
+PureComponent会给类组件默认添加一个shouldComponentUpdate周期函数
+1. 他对新老对象属性/状态做一个浅浅比较
+2. 进行浅比较，如果发现变化了返回true，没变化返回false
+
