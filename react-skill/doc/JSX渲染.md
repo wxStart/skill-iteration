@@ -67,7 +67,6 @@ React.createElement(DomeOne, {
 
 #### class组件的渲染 Component / pureComponent
 
-V16版本：
 ##### 类组件第一次执行逻辑
 1. 初始化属性和规则校验   
 ```
@@ -111,4 +110,21 @@ V16版本：
 PureComponent会给类组件默认添加一个shouldComponentUpdate周期函数
 1. 他对新老对象属性/状态做一个浅浅比较
 2. 进行浅比较，如果发现变化了返回true，没变化返回false
+
+#### 批处理 setState
+
+在React18中，setState在任何地方执行都是异步操作。
+
+在产生的私有上下文中，代码自上而下执行：
+1. 会把所有的setState操作加入到更新队列（只会针对当前上下文，同步（同时段时间间隔很小的）要做的事情做处理）
+2. 当上下文中的代码都处理完毕了，会让更新队列中的任务执行，统一渲染更新一次     
+
+updater队列 ==> shouldUpdate ==> willUpdate ==>(这时候state或者props才改变了) render ==> didUpdate ==> callback
+
+在React16中在合成事件中，周期函数中，setState的操作是一步的，如果是定时器或者手动给dom绑定事件中是同步的操作，立即更新状态和视图渲染    
+
+
+flushSync：打破批量处理，让函数立即执行进行视图渲染
+
+
 
