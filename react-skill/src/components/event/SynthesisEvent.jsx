@@ -13,7 +13,8 @@ class Synthesis extends React.Component {
       true,
     );
     document.getElementById('inner').addEventListener('click', function (e) {
-      e.stopPropagation(); // 原生事件上面执行了阻止   合成事件的冒泡节点就不会执行  因为root的冒泡事件就不会执行了
+      console.log('e: ', e);
+      // e.stopPropagation(); // 原生事件上面执行了阻止   合成事件的冒泡节点就不会执行  因为root的冒泡事件就不会执行了
       console.log('inner  原生冒泡');
     });
     document.getElementById('inner').addEventListener(
@@ -44,8 +45,12 @@ class Synthesis extends React.Component {
             onClick={e => {
               console.log('e: ', e);
               console.log('冒泡阶段   内层');
-              e.stopPropagation(); // 合成事件中“阻止事件传播”：阻止原生事件传播 和 阻止合成事件中的事件传播
+              // e.stopPropagation(); // 合成事件中“阻止事件传播”：阻止原生事件传播 和 阻止合成事件中的事件传播
               // e.nativeEvent.stopPropagation(); // 原生事件中“阻止事件传播”：阻止原生事件的传播
+
+              setTimeout(() => {
+                console.log('setTimeout', e);
+              }, 2000);
             }}
             onClickCapture={() => {
               console.log('捕获阶段   内层');
