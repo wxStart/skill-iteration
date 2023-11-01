@@ -1,3 +1,5 @@
+import Synthesis from './SynthesisEvent';
+
 export default function EventIndex() {
   const handClick1 = e => {
     console.log('1e: ', e);
@@ -16,6 +18,9 @@ export default function EventIndex() {
       <button onClick={handClick2(123)}>点击2</button>
       <button onClick={e => handClick3(e, 123)}>点击3</button>
       <button onClick={handClick3}>点击4</button>
+      <br />
+
+      <Synthesis></Synthesis>
     </>
   );
 }
