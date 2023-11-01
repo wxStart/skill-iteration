@@ -1,4 +1,5 @@
 import Synthesis from './SynthesisEvent';
+import Touch from './Touch';
 
 export default function EventIndex() {
   const handClick1 = e => {
@@ -21,6 +22,7 @@ export default function EventIndex() {
       <br />
 
       <Synthesis></Synthesis>
+      <Touch />
     </>
   );
 }
