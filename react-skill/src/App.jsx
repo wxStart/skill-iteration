@@ -18,7 +18,8 @@ import './App.css';
 // import Index from './components/ref/Index.jsx';
 // import Index from './components/use/UseState';
 // import Index from './components/use/UseEffect';
-import Index from './components/use/LayoutEffect';
+// import Index from './components/use/LayoutEffect';
+import Index from './components/use/UseMemo';
 function App() {
   return (
     <>
