@@ -1,4 +1,6 @@
-import { legacy_createStore } from 'redux';
+// import { legacy_createStore } from 'redux';
+
+import { legacy_createStore } from './myRedux';
 
 const initival = {
   supNum: 10,
