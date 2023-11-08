@@ -20,7 +20,8 @@ import './App.css';
 // import Index from './components/use/UseEffect';
 // import Index from './components/use/LayoutEffect';
 // import Index from './components/use/UseMemo';
-import Index from './components/use/useCallback';
+// import Index from './components/use/useCallback';
+import Index from './components/hoc/Index.jsx';
 
 function App() {
   return (
