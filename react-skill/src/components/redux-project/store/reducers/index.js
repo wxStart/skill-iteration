@@ -1,5 +1,6 @@
 /**合并各个模块的reducer */
-import { combineReducers } from 'redux';
+// import { combineReducers } from 'redux';
+import { combineReducers } from '../myCombineReducers';
 
 import voteReducer from './voteReducer';
 import userReducer from './userReducer';
