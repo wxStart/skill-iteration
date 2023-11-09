@@ -22,7 +22,8 @@ import './App.css';
 // import Index from './components/use/UseMemo';
 // import Index from './components/use/useCallback';
 // import Index from './components/hoc/Index.jsx';
-import Index from './components/redux/Index.jsx';
+// import Index from './components/redux/Index.jsx';
+import Index from './components/redux-project/Index.jsx';
 function App() {
   return (
     <>
