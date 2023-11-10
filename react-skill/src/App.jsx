@@ -24,7 +24,8 @@ import './App.css';
 // import Index from './components/hoc/Index.jsx';
 // import Index from './components/redux/Index.jsx';
 // import Index from './components/redux-project/Index.jsx';
-import Index from './components/react-redux/Index.jsx';
+// import Index from './components/react-redux/Index.jsx';
+import Index from './components/react-redux-middleware/Index.jsx';
 function App() {
   return (
     <>
