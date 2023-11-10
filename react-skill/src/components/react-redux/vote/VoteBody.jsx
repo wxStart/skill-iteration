@@ -1,4 +1,5 @@
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
+import { connect } from '../myReactRedux';
 
 function VoteBody(props) {
   const state = props;

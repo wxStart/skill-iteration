@@ -1,4 +1,5 @@
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
+import { connect } from '../myReactRedux';
 
 import action from '../store/actions/index.js';
 
