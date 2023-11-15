@@ -25,7 +25,10 @@ import './App.css';
 // import Index from './components/redux/Index.jsx';
 // import Index from './components/redux-project/Index.jsx';
 // import Index from './components/react-redux/Index.jsx';
-import Index from './components/react-redux-middleware/Index.jsx';
+// import Index from './components/react-redux-middleware/Index.jsx';
+
+import Index from './components/redux-toolkit/Index';
+
 function App() {
   return (
     <>

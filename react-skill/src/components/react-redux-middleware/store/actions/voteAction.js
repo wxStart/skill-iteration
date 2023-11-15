@@ -20,7 +20,7 @@ const voteAction = {
   /** redux-thunk中间件的语法 */
   support() {
     return async dispatch => {
-      await await delay();
+      await delay();
       // 异步操作 后手动派发
       dispatch({ type: TYPE.VOTE_SUP });
     };
@@ -31,7 +31,7 @@ const voteAction = {
 
   /** redux-promise 的语法   //! 写着真爽*/
   async oppose() {
-    await await delay();
+    await delay();
     return { type: TYPE.VOTE_OPP };
   },
 };
