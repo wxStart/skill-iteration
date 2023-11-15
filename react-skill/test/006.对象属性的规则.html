@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .level1 {
+        padding-left: 10px;
+      }
+      .level2 {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>Object.defineProperty(obj, key, descriptors)</h3>
+      <div class="level1">1. 设置对象某个成员的规则</div>
+      <div class="level2">1.1 如果成员存在，则修改规则</div>
+      <div class="level2">1.2 如果成员不存在，则新增这个成员，并设置规则</div>
+
+      <h3>对象成员的规则属性</h3>
+      <div class="level1">Object.getOwnPropertyDescriptor(obj, key) 获取对象的某个成员的规则</div>
+      <div class="level1">Object.getOwnPropertyDescriptors(obj) 获取对象的所有成员的规则</div>
+      <div class="level1">成员规则</div>
+      <div class="level2">configurable： 是否可以删除</div>
+      <div class="level2">writable 是否可以修改</div>
+      <div class="level2">enumerable 是否可以被枚举</div>
+      <div class="level2">value 成员的值</div>
+    </div>
+    <script>
+      let obj = { x: 12, y: 12 };
+      console.log('修改之前：', Object.getOwnPropertyDescriptor(obj, 'x'));
+      Object.defineProperty(obj, 'x', {
+        configurable: false,
+        value: 122,
+      });
+      console.log('修改之后：', Object.getOwnPropertyDescriptor(obj, 'x'));
+      console.log('修改之后所有的：', Object.getOwnPropertyDescriptors(obj));
+      const result = delete obj.x;
+      delete obj.y;
+      console.log('是否删除成功: ', result);
+      console.log('obj: ', obj);
+      Object.defineProperty(obj, 'z', {
+        configurable: false,
+        value: { a: 12 },
+      });
+      console.log(obj.z);
+
+      // 拦截器 数据劫持
+      Object.defineProperty(obj, 'a', {
+        get() {
+          return 111;
+        },
+        set(val) {
+          console.log('设置的值是', val);
+        },
+      });
+      console.log(obj.a);
+      obj.a = 1243;
+      console.log(obj);
+    </script>
+  </body>
+</html>
