@@ -22,12 +22,15 @@ import './App.css';
 // import Index from './components/use/UseMemo';
 // import Index from './components/use/useCallback';
 // import Index from './components/hoc/Index.jsx';
+
 // import Index from './components/redux/Index.jsx';
 // import Index from './components/redux-project/Index.jsx';
 // import Index from './components/react-redux/Index.jsx';
 // import Index from './components/react-redux-middleware/Index.jsx';
 
-import Index from './components/redux-toolkit/Index';
+// import Index from './components/redux-toolkit/Index';
+
+import Index from './components/react-router-dom-v5/Index';
 
 function App() {
   return (
