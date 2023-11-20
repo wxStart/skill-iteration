@@ -11,20 +11,20 @@
  *  mete： {} 路由元信息
  *  children：[]  子路由
  */
-
-import A1 from '../views/A-A1';
-import A2 from '../views/A-A2';
+import { lazy } from 'react';
+// import A1 from '../views/A-A1';
+// import A2 from '../views/A-A2';
 // 二级路由A模块
 const routes = [
   {
     path: '/a/a1',
-    component: A1,
+    component: lazy(() => import('../views/A-A1.jsx')),
     meta: {},
     children: [],
   },
   {
     path: '/a/a2',
-    component: A2,
+    component: lazy(() => import('../views/A-A2.jsx')),
     meta: {},
     children: [],
   },

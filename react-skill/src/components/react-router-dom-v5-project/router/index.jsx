@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 const RouterView = function RouterView(props) {
@@ -32,7 +33,11 @@ const RouterView = function RouterView(props) {
             {...config}
             render={() => {
               // 统一基于render 进行处理  这样就可以进行其他的处理
-              return <Component></Component>;
+              return (
+                <Suspense fallback={'正在加载组件。。。'}>
+                  <Component />
+                </Suspense>
+              );
             }}
           />
         );

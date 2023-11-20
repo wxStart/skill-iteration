@@ -12,9 +12,10 @@
  *  children：[]  子路由
  */
 
+import { lazy } from 'react';
 import A from '../views/A';
-import B from '../views/B';
-import C from '../views/C';
+// import B from '../views/B';
+// import C from '../views/C';
 
 import aRoutes from './aRoutes';
 
@@ -34,14 +35,14 @@ const routes = [
   },
   {
     path: '/b',
-    component: B,
+    component: lazy(() => import('../views/B.jsx')),
     exact: true,
     meta: {},
     children: [],
   },
   {
     path: '/b/c',
-    component: C,
+    component: lazy(() => import('../views/C.jsx')),
     meta: {},
     children: [],
   },
