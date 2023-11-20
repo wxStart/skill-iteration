@@ -31,11 +31,13 @@ const RouterView = function RouterView(props) {
           <Route
             key={index}
             {...config}
-            render={() => {
+            render={props => {
+              console.log('props: ', props);
+              // props中是路由传递过来的参数  history  location  match
               // 统一基于render 进行处理  这样就可以进行其他的处理
               return (
                 <Suspense fallback={'正在加载组件。。。'}>
-                  <Component />
+                  <Component {...props} />
                 </Suspense>
               );
             }}
