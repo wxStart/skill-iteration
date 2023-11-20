@@ -1,5 +1,22 @@
-### 1.创建 RouterView
+### 步骤1.创建 RouterView
 
-router 文件夹下：
-    1. 创建 index.js
-    2. 创建 routes.js
+router 文件夹下：<br/>
+
+1.  创建 index.js<br/>
+2.  创建 routes.js
+
+### 步骤2. 在路由使用的地方使用RouterView组件，同时加载routes配置项
+1.  在Index.jsx 中加载一级路由 `'./router/routes'`
+
+```
+import routes from './router/routes';
+import RouterView from './router/index.jsx';
+
+```
+2.  在A.jsx 中加载二级路由 `'./router/aRoutes'`
+
+```
+import routes from '../router/aRoutes';
+import RouterView from '../router/index';
+
+```
