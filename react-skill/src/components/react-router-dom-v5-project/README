@@ -1,0 +1,5 @@
+### 1.创建 RouterView
+
+router 文件夹下：
+    1. 创建 index.js
+    2. 创建 routes.js

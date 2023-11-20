@@ -1,8 +1,6 @@
-import { HashRouter, Link, Route, Switch, Redirect } from 'react-router-dom';
-
-import A from './views/A';
-import B from './views/B';
-import C from './views/C';
+import { HashRouter, Link } from 'react-router-dom';
+import routes from './router/routes';
+import RouterView from './router/index.jsx';
 
 /***
  *  基于HashRouter 把所有组件包裹起来，开启哈希路由
@@ -39,6 +37,7 @@ import C from './views/C';
 export default function RouterDom() {
   return (
     <HashRouter>
+      <h2>工程级别的v5 RouterDom</h2>
       <div>
         <Link to="/">A</Link>
         ----------路由分割-------------
@@ -48,7 +47,7 @@ export default function RouterDom() {
       </div>
       {/* 路由容器：每次页面加载或者路由切换完毕，都会根据当前的哈希值匹配使用的组件 */}
       <div>
-        <Switch>
+        {/* <Switch>
           <Redirect from="/" to="/a" exact />
           <Route path="/a" component={A} />
           <Route path="/b" component={B} exact />
@@ -67,31 +66,9 @@ export default function RouterDom() {
               return <Redirect to="/login" />;
             }}
           />
-          {/* 
-
-
-            以上都不匹配  则执行此规则
-             <Route path="*" component={() => 404} />
-
-
-            // 重定向  from 存在就是匹配到指定路由后，跳到to
-            <Redirect from=""  to="" exact /> 
-
-
-            <Route path="/b/c" render={
-                ()=>{
-                    // 不写component   写个render函数  
-                    // 当路由匹配到的时候，执行此函数，函数的返回值就是要渲染的内容
-                    // 在此函数中，可以处理一些事情，例如 登录校验等    
-
-                    retrun  渲染的内容;
-                    }
-                } 
-            />
-
-          */}
           <Redirect to="/b" />
-        </Switch>
+        </Switch> */}
+        <RouterView routes={routes} />
       </div>
     </HashRouter>
   );
