@@ -17,6 +17,12 @@
 就可以通过 `useHistory, useLocation, useRouteMatch` hooks获取三个对象信息；
 对于类组件可以使用 `withRouter`或者自己使用高阶组件去包一层
 
+#### 常用hooks
+
+1. useHistory 获取导航对象
+2. useLocation
+3. useRouteMatch 获取路径参数
+
 ### V6
 
 变动点：<br/>
@@ -31,3 +37,13 @@
    4.3 不需要exact ，默认每一个都是精准匹配 <br/>
 5. 原有的`<Redirect  > `操作被` <Route path="/" element={<Navigate to="/a" />}></Route>`代替 <br/>  
    5.1 遇到Navigate组件就会跳转4. 要求所有的路由（二级或者多级路由），不在分散到各个组件中编写，而是统一写在一起进行处理；<br/>
+6. 当前组件是基于Route匹配渲染，也不会基于props传递`history  location   match`,需要使用hooks进行获取<br/>
+7. `useNavigate`获取编程式导航跳转函数，隐式传参刷新页面传递的参数还是有的，v5没有保留隐式传参的参数 <br/>
+8. `useMatch`获取不到url上路径参数，需要使用`useParams`<br/>
+
+#### 常用的hooks
+
+1. useNavigate 替代v5中的useHistory
+2. useLocation
+3. useParams 替代v5中的useRouteMatch
+4. useSearchParams 获取url上?传参

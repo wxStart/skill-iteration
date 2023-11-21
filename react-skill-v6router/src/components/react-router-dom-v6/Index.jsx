@@ -40,7 +40,7 @@ export default function RouterDom() {
             <Route path="/a/a2" element={<A2 />}></Route>
           </Route>
           <Route path="/b" element={<B />} exact />
-          <Route path="/c" element={<C />} />
+          <Route path="/c/:id?/:name?" element={<C />} />
           {/* 所有的都不匹配跳转/a */}
           <Route path="*" element={<Navigate to="/a" />}></Route>
         </Routes>
