@@ -31,7 +31,9 @@ import './App.css';
 // import Index from './components/redux-toolkit/Index';
 
 // import Index from './components/react-router-dom-v5/Index';
-import Index from './components/react-router-dom-v5-project/Index';
+// import Index from './components/react-router-dom-v5-project/Index';
+
+import Index from './components/dom-diff/Index';
 
 function App() {
   return (
