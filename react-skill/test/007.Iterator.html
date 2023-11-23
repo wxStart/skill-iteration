@@ -130,40 +130,55 @@
     </script>
 
     <script>
-      // 对象使用for of遍历
-      let obj = {
-        name: 'wx',
-        age: '30',
-        0: 100,
-        [Symbol('AA')]: 20,
-      };
-      try {
-        // 这里报错
+      function init() {
+        // 对象使用for of遍历
+        let obj = {
+          name: 'wx',
+          age: '30',
+          0: 100,
+          [Symbol('AA')]: 20,
+        };
+        try {
+          // 这里报错
+          for (const val of obj) {
+            console.log('val: ', val);
+          }
+        } catch (error) {
+          console.log('error: ', error);
+        }
+
+        // 添加上
+        Object.prototype[Symbol.iterator] = function () {
+          let self = this,
+            index = -1,
+            keys = Reflect.ownKeys(self);
+
+          return {
+            next() {
+              index++;
+              if (index >= keys.length) {
+                return { done: true, value: undefined };
+              }
+              let key = keys[index];
+              return { done: false, value: self[key] };
+            },
+          };
+        };
+
         for (const val of obj) {
           console.log('val: ', val);
         }
-      } catch (error) {
-        console.log('error: ', error);
       }
-
-      // 添加上
-      Object.prototype[Symbol.iterator] = function () {
-        let self = this,
-          index = -1,
-          keys = Reflect.ownKeys(self);
-
-        return {
-          next() {
-            index++;
-            if (index >= keys.length) {
-              return { done: true, value: undefined };
-            }
-            let key = keys[index];
-            return { done: false, value: self[key] };
-          },
-        };
+    </script>
+    <script>
+      // 类数组对象  直接使用数组的迭代器
+      let obj = {
+        0: '1',
+        1: '111',
+        2: '333',
+        length: 3,
       };
-
+      obj[Symbol.iterator] = Array.prototype[Symbol.iterator];
       for (const val of obj) {
         console.log('val: ', val);
       }
