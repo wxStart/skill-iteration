@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Iterator</title>
+    <style>
+      .level1 {
+        margin-bottom: 20px;
+      }
+      .level1 div {
+        padding-left: 20px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="level1">
+        遍历器（Iterator）是一种接口机制，为各种不同数据结构提供统一的访问机制，任何数据结构只要部署了Iterator接口，就可以通过for...of
+        循环，以此处理该数据结构的所有成员。
+        <div>1. 拥有next方法用于依次遍历数据结构的成员</div>
+        <div>
+          2.每次遍历返回的结果是一个对象 {done:false,value:'xxx'}
+          <div>done: 记录是否遍历完成， flase为未结束，true为结束</div>
+          <div>value： 当前遍历的结果</div>
+        </div>
+        符合上方的对象就是符合迭代器规范的对象！！
+      </div>
+
+      <div class="level1">
+        在js中有很多数据结构，天生基本迭代器规范，
+        <div>
+          主要看数据结构是否具有`Symbol.iterator`这个属性。 具备这个属性我们就可以用for/of循环进行迭代数据的每一项
+        </div>
+        <div>
+          例如：
+          <div>Array</div>
+          <div>NodeList 【类数组】</div>
+          <div>HTMLCollection【类数组】</div>
+          <div>字符串</div>
+          <div>Set</div>
+          <div>Map</div>
+          <div>函数的 arguments 对象</div>
+        </div>
+      </div>
+      <div class="level1">
+        但是纯粹的对象或者自己构建的类数组对象，默认是不具备`Symbol.iterator`属性的，因此不可以直接使用for/of循环;
+        需要自己定义`Symbol.iterator`属性后才可以
+      </div>
+
+      <div class="level1">
+        <h1>For/of 循环原理：</h1>
+        <div>1. 迭代执行，先执行Symbol.iterator方法执行获取一个具有迭代器规范的对象 ==> itor</div>
+        <div>
+          2. 开始迭代：每次迭代都是把itor.next方法执行
+          <div>把获取对象中的value属性赋值给val这个变量</div>
+          <div>再看对象中done这个属性，如果是false，继续迭代，如果是true 则结束迭代</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // 迭代器规范
+      (function () {
+        class IteratorArray {
+          constructor(data) {
+            this.data = data;
+            this.num = data.length;
+            this.index = 0;
+          }
+          next() {
+            if (this.index < this.num) {
+              return { done: false, value: this.data[this.index++] };
+            } else {
+              return { done: true, value: undefined };
+            }
+          }
+        }
+
+        let arr = [1, 2, 3, 4];
+        let iArr = new IteratorArray(arr);
+        console.log('iArr: ', iArr);
+
+        let result = iArr.next(); // {done:false,value:1}
+        result = iArr.next(); // {done:false,value:2}
+        result = iArr.next(); // {done:false,value:3}
+        result = iArr.next(); // {done:false,value:4}
+        result = iArr.next(); // {done:true,value:undefined}
+      })();
+    </script>
+
+    <script>
+      // for of
+      let arr = [1, 2, 3, 4];
+      for (const val of arr) {
+        console.log('val: ', val);
+      }
+      /**
+       *  原理：
+       *     1. 迭代执行，先执行Symbol.iterator方法执行获取一个具有迭代器规范的对象  ==> itor
+       *     2. 开始迭代：每次迭代都是把itor.next方法执行
+       *          + 把获取对象中的value属性赋值给val这个变量
+       *          + 再看对象中done这个属性，如果是false，继续迭代，如果是true 则结束迭代
+       *
+       */
+
+      arr[Symbol.iterator] = function () {
+        console.log('For of  开始执行');
+        let that = this;
+        console.log('that: ', that);
+        index = -1;
+
+        return {
+          next() {
+            console.log(2);
+            index += 1;
+            //index += 2;
+            if (index >= that.length) {
+              return { done: true, value: undefined };
+            }
+            return { done: false, value: that[index] };
+          },
+        };
+      };
+      for (const val of arr) {
+        console.log('val: ', val);
+      }
+    </script>
+
+    <script>
+      // 对象使用for of遍历
+      let obj = {
+        name: 'wx',
+        age: '30',
+        0: 100,
+        [Symbol('AA')]: 20,
+      };
+      try {
+        // 这里报错
+        for (const val of obj) {
+          console.log('val: ', val);
+        }
+      } catch (error) {
+        console.log('error: ', error);
+      }
+
+      // 添加上
+      Object.prototype[Symbol.iterator] = function () {
+        let self = this,
+          index = -1,
+          keys = Reflect.ownKeys(self);
+
+        return {
+          next() {
+            index++;
+            if (index >= keys.length) {
+              return { done: true, value: undefined };
+            }
+            let key = keys[index];
+            return { done: false, value: self[key] };
+          },
+        };
+      };
+
+      for (const val of obj) {
+        console.log('val: ', val);
+      }
+    </script>
+  </body>
+</html>
