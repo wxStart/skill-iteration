@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Generator</title>
+    <style>
+      .level1 {
+        margin-bottom: 20px;
+      }
+      .level1 div {
+        padding-left: 20px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="level1">
+        <h1>生成器</h1>
+        <div>
+          <h4>创建生成器函数</h4>
+          <div>把创建函数的"function"后面加个“*”就可以</div>
+          <div>箭头函数无法变成生成器函数</div>
+          <div>多出一个` [[IsGenerator]] : true ` 属性</div>
+        </div>
+        <div>
+          <h4>原型链</h4>
+          <div>fn.__proto__ => GeneratorFunction.prototype => Function.prototype</div>
+        </div>
+        <div>
+          <h4>当生成器函数执行</h4>
+
+          <div>1.函数代码块不会执行</div>
+          <div>
+            2.返回一个具有迭代器规范的对象 [iterator]
+            <div>next()</div>
+            <div>throw()：执行过程中手动抛出异常，后续的next中不在执行函数体中的代码</div>
+            <div>return() :类似遇到和函数体中return</div>
+            <div>Symbol(Symbol.iterator)()</div>
+          </div>
+          <div>
+            3. 执行 iterator.next()时候
+            <div>把函数体中的代码开始执行</div>
+            <div>
+              返回一个对象
+              <div>done：记录代码是否执行完毕</div>
+              <div>value：记录本次执行的处理结果</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h4>生成器函数的作用</h4>
+          <h5>可以基于返回的itor（迭代器对象），基于next方法，控制函数体中的代码一步一步的执行！！！</h5>
+          <div>
+            每一次执行next，控制函数体中的代码开始执行，知道遇到yield则暂停执行
+            <div>done：是false</div>
+            <div>value：yield后面的值</div>
+          </div>
+          <div>
+            当遇到函数体中的return，或者代码执行到函数的末尾的位置了
+            <div>done：是true</div>
+            <div>value：函数返回值 或者是 undefined</div>
+          </div>
+        </div>
+
+        <div>
+          <h4>next(N)</h4>
+          next
+          函数执行时候传递参数；每次执行next方法，传递的值会作为上一个yield的返回值。【所以第一个next传递的值是没有用的】
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function initiate() {
+        let gFn = function* () {
+          console.log('函数运行中');
+          return 100;
+        };
+
+        //   console.dir(gFn);
+        let iterator = gFn();
+        console.log('iterator: ', iterator);
+        console.log('iterator.next(): ', iterator.next());
+        console.log('iterator.next(): ', iterator.next());
+        //   for (const obj of iterator) {
+        //     console.log('obj: ', obj);
+        //   }
+
+        // 对es快捷赋值  在方法名前面加* 也可以创建生成器函数
+        let obj = {
+          *sum() {},
+        };
+      }
+      //   initiate();
+    </script>
+
+    <script>
+      function initiate() {
+        let gFn = function* () {
+          console.log('函数运行中第1个next');
+          yield 100; // 第一个next执行到这里
+          console.log('函数运行中第2个next');
+          yield 200; // 第二个next执行到这里
+          console.log('函数运行中第3个next');
+          return 300;
+        };
+
+        //   console.dir(gFn);
+        let iterator = gFn();
+        console.log('1 next() start');
+        console.log('iterator.next(): ', iterator.next());
+        console.log('1 next() end');
+        console.log('2 next() start');
+        console.log('iterator.next(): ', iterator.next());
+        console.log('2 next() end');
+        console.log('3 next() start');
+        console.log('iterator.next(): ', iterator.next());
+        console.log('3 next() end');
+        console.log('iterator.next(): ', iterator.next());
+      }
+      //   initiate();
+    </script>
+
+    <script>
+      // throw的特定
+      function initiate() {
+        let gFn = function* () {
+          console.log('函数运行中第1个next');
+          yield 100; // 第一个next执行到这里
+          console.log('函数运行中第2个next');
+          yield 200; // 第二个next执行到这里
+          console.log('函数运行中第3个next');
+          return 300;
+        };
+
+        let iterator = gFn();
+        console.log('iterator.next(): ', iterator.next());
+        iterator.throw(); // 手动抛出异常，生成器中的代码都不会执行，后续代码页不执行了
+        console.log('我在throw 后面  我不会在执行到了');
+        console.log('iterator.next(): ', iterator.next());
+      }
+      //   initiate();
+    </script>
+
+    <script>
+      // return的特定
+      function initiate() {
+        let gFn = function* () {
+          console.log('函数运行中第1个next');
+          yield 100; // 第一个next执行到这里
+          console.log('函数运行中第2个next');
+          yield 200; // 第二个next执行到这里
+          console.log('函数运行中第3个next');
+          return 300;
+        };
+
+        let iterator = gFn();
+        console.log('iterator.next(): ', iterator.next());
+        console.log('iterator.return("123"): ', iterator.return('123')); // 类似遇到了 函数体中的 return '123'  {done:true,value:123}   后续的 {done:true,value:undefined}
+        console.log('我在return 后面  我会执行到了');
+        console.log('iterator.next(): ', iterator.next()); //{done:true,value:undefined}
+      }
+      //   initiate();
+    </script>
+
+    <script>
+      // 传值  传递的值是给上一次yield的
+      // 第一次执行时候传递的值是拿不到的
+      function initiate() {
+        let gFn = function* () {
+          const secondNextParams = yield 100; // 第二次执行next传递的值在这里拿到
+          console.log('secondNextParams: ', secondNextParams); // 第二次next的时候打印的
+          const threeNextParams = yield 200; // 第三次执行next传递的值在这里拿到
+          console.log('threeNextParams: ', threeNextParams);
+        };
+
+        let iterator = gFn();
+        console.log('iterator.next(): ', iterator.next('first:aaa'));
+        console.log('iterator.next(): ', iterator.next('second:aaa'));
+        console.log('iterator.next(): ', iterator.next('three:aaa'));
+      }
+      //   initiate();
+    </script>
+
+    <script>
+      // 生成器的嵌套问题
+      function initiate() {
+        let sum = function* () {
+          const res = yield 300;
+          console.log('res:300 ', res);
+          yield 400;
+        };
+        let gFn = function* () {
+          const res = yield 100;
+          console.log('res:100 ', res);
+          yield* sum(); // yield* : 支持让我们进入到另一个生成器函数中去一步一步执行
+          yield 200;
+        };
+
+        let iterator = gFn();
+        console.log('iterator.next(): ', iterator.next()); // 执行到 yield 100;
+        console.log('iterator.next(1): ', iterator.next(1)); // 执行到 yield 300;
+        console.log('iterator.next(2): ', iterator.next(2)); // 执行到 yield 400;
+        console.log('iterator.next(): ', iterator.next()); // 执行到 yield200;
+        console.log('iterator.next(): ', iterator.next()); // 执行结束了
+      }
+      //   initiate();
+    </script>
+    <script>
+      const delay = time => {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve(`@@@${time}`);
+          }, time);
+        });
+      };
+      // 需求串行请求 1000 -> 2000 -> 3000
+
+      /**
+       *  Promise/then
+       */
+      //   delay(1000)
+      //     .then(val => {
+      //       console.log('val1: ', val);
+      //       return delay(2000);
+      //     })
+      //     .then(val => {
+      //       console.log('val2: ', val);
+      //       return delay(3000);
+      //     })
+      //     .then(val => {
+      //       console.log('val3: ', val);
+      //     });
+
+      /**
+       * async/await
+       */
+      //   (async () => {
+      //     let result = await delay(1000);
+      //     console.log('result:1 ', result);
+      //     result = await delay(2000);
+      //     console.log('result:2 ', result);
+      //     result = await delay(3000);
+      //     console.log('result:3 ', result);
+      //   })();
+
+      /**
+       * 基于 Generator函数
+       */
+      function* handle() {
+        let val = yield delay(1000);
+        console.log('val:1 ', val);
+        val = yield delay(2000);
+        console.log('val:2 ', val);
+        val = yield delay(3000);
+        console.log('val:3 ', val);
+      }
+
+      //   let iterator = handle();
+      //   //1 done 是否执行完毕 value：获取的是每一次yield后面的值  promise实例
+      //   let { done, value } = iterator.next(); // 第一次执行
+
+      //   value.then(v => {
+      //     //1 v 是第一次promise的结果  然后通过第二个next把执行的结果传给第一个yiled
+
+      //     //2 done 是否执行完毕 value是第二次请求的  promise实例
+      //     let { done, value } = iterator.next(v); // 第二次执行
+
+      //     value.then(v => {
+      //       //2 v 是第二次promise的结果  然后通过第三个next把执行的结果传给第二个yiled
+      //       // 3 done 是否执行完毕 value是第三次请求的  promise实例
+      //       let { done, value } = iterator.next(v); // 第三次执行
+
+      //       value.then(v => {
+      //         //3 v 是第三次promise的结果  然后通过第四个next把执行的结果传给第三个yiled
+      //         iterator.next(v); //第四次执行
+      //       });
+      //     });
+      //   });
+
+      // 编写Generator中代码逐一执行的方法
+      const AsyncFunction = function (generator, ...params) {
+        let iterator = generator(params);
+        const next = x => {
+          let { done, value } = iterator.next(x);
+          if (done) return;
+          if (!(value instanceof Promise)) value = Promise.resolve(value);
+          //   value.then(data => {
+          //     next(data);
+          //   });
+          value.then(next);
+        };
+        next();
+      };
+
+      AsyncFunction(handle);
+
+      //  es8（2017）中 async/await 是用来简化promise的操作，是Promise + Generator 的语法糖
+    </script>
+  </body>
+</html>
