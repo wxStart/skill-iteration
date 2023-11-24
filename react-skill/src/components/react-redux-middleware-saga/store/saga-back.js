@@ -15,7 +15,7 @@ import {
   all,
 } from 'redux-saga/effects';
 
-console.log(take, takeEvery, takeLatest, throttle, debounce, call, apply, fork, delay, put, select, all);
+console.log(take, takeEvery, takeLatest, throttle, debounce, call, apply, fork, delay, put,all);
 
 /**
  * 
@@ -31,28 +31,16 @@ import * as TYPES from './action-types';
 /** 创建执行函数，在任务监听后，去做异步操作[Generator] */
 
 const workingCount = function* (action) {
-  console.log('监听到了 workingCount: ');
   // action 就是派发对象
-  yield delay(3000);
+  console.log('action: ', action); // 执行异步dispatch时候的action {type，payload}
+  console.log('当前的任务被监听到了');
+
+  const demo = yield select(state => state.demo);
+  console.log('demo: ', demo);
+  yield delay(2000);
   yield put({
     type: TYPES.COUNT_ADD,
     payload: action.payload,
-  });
-};
-
-const workingVoteSupNum = function* () {
-  console.log('监听到了 workingVoteSupNum: ');
-  yield delay(1000);
-  yield put({
-    type: TYPES.VOTE_SUP,
-  });
-};
-
-const workingVoteOppNum = function* () {
-  console.log('监听到了 workingVoteOppNum: ');
-  yield delay(1000);
-  yield put({
-    type: TYPES.VOTE_OPP,
   });
 };
 
@@ -60,10 +48,17 @@ const workingVoteOppNum = function* () {
  * 创建监听器 监听派发任务 [Generator]
  */
 const saga = function* () {
-  // 多个监听
+  // while (true) {
+  //   let action = yield take(TYPES.COUNT_ADD + '@SAGA@'); // 这里的action 是派发对象
+  //   yield workingCount(action);
+  // }
+
+  //
+  // yield takeEvery(TYPES.COUNT_ADD + '@SAGA@', workingCount);
+
   yield takeLatest(TYPES.COUNT_ADD + '@SAGA@', workingCount);
-  yield takeLatest(TYPES.VOTE_SUP + '@SAGA@', workingVoteSupNum);
-  yield takeLatest(TYPES.VOTE_OPP + '@SAGA@', workingVoteOppNum);
+
+  // yield throttle(500, TYPES.COUNT_ADD + '@SAGA@', workingCount); // 这次点击后500ms后才会被再次检测到  节流处理
 };
 
 export default saga;

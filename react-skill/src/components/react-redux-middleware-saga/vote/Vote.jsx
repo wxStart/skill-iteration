@@ -6,7 +6,7 @@ function Vote(props) {
   const state = props;
   return (
     <>
-      <h3> thunk + promise</h3>
+      <h3> sage</h3>
       <div>你觉得35岁会失业么？</div>
       <div>参与人数：{state.supNum + state.oppNum}</div>
       <VoteBody></VoteBody>
