@@ -35,3 +35,8 @@
         }
      }
    ```
+
+### 常用的hooks
+
+1. useSelector 获取公共信息 
+2. useDispatch 获取dispatch

@@ -33,7 +33,8 @@ import './App.css';
 // import Index from './components/react-router-dom-v5/Index';
 // import Index from './components/react-router-dom-v5-project/Index';
 
-import Index from './components/dom-diff/Index';
+// import Index from './components/dom-diff/Index';
+import Index from './components/react-redux-middleware-saga/Index.jsx';
 
 function App() {
   return (
