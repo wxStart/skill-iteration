@@ -1,20 +1,9 @@
-import { NavLink, Switch, Route, Redirect } from "dva/router";
+import { NavLink } from "dva/router";
 
-import dynamic from "dva/dynamic";
+import routes from "../userRoutes";
+import RouterView from '../RouterView'
 
-// import Xm from "./user/Xm";
 
-const LazyXm = dynamic({
-  app: window.dvaApp,
-  models: () => [],
-  component: () => import(/* webpackChunkName: "xm" */ "./user/Xm"),
-});
-
-const LazyXy = dynamic({
-  app: window.dvaApp,
-  models: () => [],
-  component: () => import(/* webpackChunkName: "xy" */ "./user/Xy"),
-});
 
 export default function User() {
   return (
@@ -27,19 +16,7 @@ export default function User() {
       <div>
         <h4> 下方二级路由的内容 </h4>
         <hr />
-        <Switch>
-          <Redirect from="/user" exact to="/user/xm"></Redirect>
-          <Route
-            path="/user/xm"
-            exact
-            component={() => <LazyXm userName="小明" />}
-          ></Route>
-          <Route
-            path="/user/xy"
-            exact
-            component={() => <LazyXy userName="小杨" />}
-          ></Route>
-        </Switch>
+        <RouterView routes={routes} ></RouterView>
       </div>
     </div>
   );

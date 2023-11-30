@@ -15,6 +15,7 @@ const app = dva({
 });
 
 window.dvaApp = app;
+console.log('app: ', app);
 
 // 2. Plugins
 // app.use({});

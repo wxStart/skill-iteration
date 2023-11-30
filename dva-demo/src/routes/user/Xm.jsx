@@ -1,4 +1,4 @@
-export default function User1({match, userName = "" }) {
+export default function User1({match, userName = "小明" }) {
     console.log('match: ', match);
   return (
     <div>
