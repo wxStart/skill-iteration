@@ -14,6 +14,8 @@ const app = dva({
   extraEnhancers:[]
 });
 
+window.dvaApp = app;
+
 // 2. Plugins
 // app.use({});
 

@@ -20,3 +20,20 @@
 ## dva/router
 +  react-router-dom v5版本中的所有api
 +  react-router-redux 中的对象, 并且都挂在`routerRedux`对象下面
+## dva/dynamic
++ 路由懒加载
+```
+
+    import dynamic from "dva/dynamic";
+    /**
+      window.dvaApp = dva() // 在入口的地方设置的
+     */
+    
+    const LazyXy = dynamic({
+        app: window.dvaApp,
+        models: () => [],
+        component: () => import(/* webpackChunkName: "xy" */ "./user/Xy"),
+    });
+
+```
+
