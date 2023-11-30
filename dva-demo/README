@@ -1,0 +1,18 @@
+### antd 按需导入
+
++ antd 4.x 不支持按需导入 [按需](https://dvajs.com/guide/getting-started.html#%E4%BD%BF%E7%94%A8-antd)
+
+```
+    "antd": "^4.24.7",
+    "antd-icons": "^0.1.0-alpha.1"
+    "babel-plugin-import": "^1.13.5"
+```
+### `.webpackrc.js` webpack的相关配置
+[参考](https://github.com/sorrycc/roadhog#)
+
+### 移动端适配
++ 依赖包
+```
+    "lib-flexible": "^0.3.2",
+    "postcss-pxtorem": "^5.1.1"
+```

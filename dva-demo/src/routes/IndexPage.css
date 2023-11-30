@@ -13,7 +13,6 @@
 
 .welcome {
   height: 328px;
-  background: url(../assets/yay.jpg) no-repeat center 0;
   background-size: 388px 328px;
 }
 
@@ -26,4 +25,8 @@
 
 .list code {
   background: #f7f7f7;
+}
+.btn{
+  font-size: 75px;
+  color: red;
 }
