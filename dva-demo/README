@@ -1,3 +1,4 @@
+## 项目配置
 ### antd 按需导入
 
 + antd 4.x 不支持按需导入 [按需](https://dvajs.com/guide/getting-started.html#%E4%BD%BF%E7%94%A8-antd)
@@ -16,3 +17,6 @@
     "lib-flexible": "^0.3.2",
     "postcss-pxtorem": "^5.1.1"
 ```
+## dva/router
++  react-router-dom v5版本中的所有api
++  react-router-redux 中的对象, 并且都挂在`routerRedux`对象下面
