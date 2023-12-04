@@ -13,13 +13,58 @@ const delay = (time = 1000) => {
 export default {
   namespace: "user", // 模块名字
   state: {
+    // 公共状态
     name: "wxx",
     age: 31,
     dream: "共同富裕",
-  }, // 公共状态
+  },
+  //  subscriptions 页面加载就立即被注册
+  /**
+    subscriptions中写的方法,都是普通函数，在页面初始化时候，会把函数执行
+     参数 ：包含dispatch和history的两个对象
+   如果页面一加载，我们就向执行，修改模块的数据.
+  */
   subscriptions: {
-    setup({ dispatch, history }) {
+    // 页面加载 按照顺序由 上往下执行  只会执行一次，路由切换也不会执行了
+    init({ dispatch, history }) {
+      console.log("init");
+      dispatch({
+        type: "save",
+        payload: { name: "我是第一次被执行的修改的name" },
+      });
+    },
+    async setup({ dispatch, history }) {
       // eslint-disable-line
+      console.log("setup");
+      const result = await delay(2000);
+      dispatch({
+        type: "save",
+        payload: { age: result },
+      });
+    },
+    a() {
+      console.log("a");
+    },
+
+    // 需求改变一下： 我们希望，在页面第一次/重新记载时候，只有进入User组件时候，我们写的方法才可以执行。  进入页面刷新数据
+    inter({ dispatch, history }) {
+      console.log("inter: ", 1);
+
+      // 返回值  unListen 移除此监听器的操作
+      let unListen = history.listen((location) => {
+        if (location.pathname === "/user/xy") {
+          console.log(" 进入到了 /user/xy", location);
+          dispatch({
+            type: "save",
+            payload: { age: 100 },
+          });
+        } else {
+          dispatch({
+            type: "save",
+            payload: { age: 101 },
+          });
+        }
+      });
     },
   },
 
@@ -55,8 +100,8 @@ export default {
           payload: payload,
         });
         yield put({
-          type: "common/save",  // 修改common
-          payload: {token:'token123'},
+          type: "common/save", // 修改common
+          payload: { token: "token123" },
         });
       },
       {

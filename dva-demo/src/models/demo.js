@@ -6,8 +6,14 @@ export default {
   }, // 公共状态
 
   subscriptions: {
+    init({ dispatch, history }) {
+      console.log('dispatch, history: ', dispatch, history);
+      // eslint-disable-line
+      console.log('demo init')
+    },
     setup({ dispatch, history }) {
       // eslint-disable-line
+      console.log('demo setup')
     },
   },
 
