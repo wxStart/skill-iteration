@@ -1,5 +1,6 @@
 import dva from "dva";
-import createLoading from 'dva-loading'
+import createLoading from "dva-loading";
+import creteLogger from "redux-logger";
 
 import "./index.css";
 
@@ -14,12 +15,16 @@ const app = dva({
   history: createHashHistory(),
   // 扩展其他中间件： 例如redux-logger
   extraEnhancers: [],
-  
+
   // initialState: { // model板块赋值初始状态，优先级高，一般要保证模块不是懒加载的demo模块不是懒加载
-  //   demo: {  
+  //   demo: {
   //     num: 10,
   //   },
   // },
+
+  onAction: creteLogger({
+    predicate: (getState, action) => action.type.indexOf("@@DVA") == -1, // 隐藏这个开头的日志
+  }),
 });
 
 window.dvaApp = app;

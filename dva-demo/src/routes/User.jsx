@@ -5,12 +5,9 @@ import routes from "../userRoutes";
 import RouterView from "../RouterView";
 
 function User(props) {
-  console.log("props: ", props);
   const { dispatch, loading } = props;
 
   let loading1 = loading.effects["user/changDreamAsync"];
-  console.log("loading1: ", loading1);
-
   function onChangeDream() {
     dispatch({
       type: "user/changDream",
