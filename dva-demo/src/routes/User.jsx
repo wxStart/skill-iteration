@@ -6,7 +6,10 @@ import RouterView from "../RouterView";
 
 function User(props) {
   console.log("props: ", props);
-  const { dispatch } = props;
+  const { dispatch, loading } = props;
+
+  let loading1 = loading.effects["user/changDreamAsync"];
+  console.log("loading1: ", loading1);
 
   function onChangeDream() {
     dispatch({
@@ -39,7 +42,9 @@ function User(props) {
         dream：
         {props.dream}
         <button onClick={onChangeDream}>同步更新</button>
-        <button onClick={onChangeDreamAsync}>异步更新</button>
+        <button onClick={onChangeDreamAsync}>
+          {loading1 ? "正在更新中，请不要重复点击" : "异步更新"}
+        </button>
       </div>
       <div>
         <NavLink to="/user/xm">小明同学</NavLink>
@@ -53,4 +58,8 @@ function User(props) {
     </div>
   );
 }
-export default connect((state) => ({ ...state.user, ...state.common }))(User);
+export default connect((state) => ({
+  ...state.user,
+  ...state.common,
+  loading: state.loading,
+}))(User);
