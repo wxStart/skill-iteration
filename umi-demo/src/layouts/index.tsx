@@ -1,6 +1,7 @@
 import { Link, Outlet } from 'umi';
 import styles from './index.less';
 
+/**相当于spa页面的入口 */
 export default function Layout() {
   return (
     <div className={styles.navs}>
