@@ -1,5 +1,5 @@
-import { Link, Outlet } from 'umi';
 import styles from '@/layouts/index.less';
+import { Link, Outlet } from 'umi';
 
 /**相当于spa页面的入口 */
 export default function Layout() {
@@ -7,13 +7,16 @@ export default function Layout() {
     <div className={styles.navs}>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">首页</Link>
         </li>
         <li>
-          <Link to="/docs">Docs</Link>
+          <Link to="/test">测试页</Link>
         </li>
         <li>
-          <a href="https://github.com/umijs/umi">Github</a>
+          <Link to="/test/100">测试页100</Link>
+        </li>
+        <li>
+          <Link to="/user">个人中心</Link>
         </li>
       </ul>
       <Outlet />

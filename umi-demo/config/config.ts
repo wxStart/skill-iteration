@@ -1,14 +1,19 @@
 import { defineConfig } from 'umi';
+import routes from './routes.ts';
 
 export default defineConfig({
   /**路由相关 */
   history: {
     type: 'hash',
   },
-  routes: [
-    { path: '/', component: 'index' },
-    { path: '/docs', component: 'docs', layout: true },
-  ],
+  historyWithQuery:{
+    
+  },
+  routes,
+  //   routes: [
+  //     { path: '/', component: 'index' },
+  //     { path: '/docs', component: 'docs', layout: true },
+  //   ],
   /**路由相关 */
 
   npmClient: 'pnpm',
@@ -23,8 +28,8 @@ export default defineConfig({
     // js压缩的配置项
   },
 
-//   outputPath: 'app-wx', // 输出目录
-  publicPath: process.env.NODE_ENV === 'development' ? './' : '/spa/app-wx/', //打包前缀 默认是“/”
+  //   outputPath: 'app-wx', // 输出目录
+  publicPath: process.env.NODE_ENV === 'development' ? '/' : '/spa/app-wx/', //打包前缀 默认是“/”
   /**基础配置 */
 
   //   chainWebpack(memo, { env, webpack }) {
