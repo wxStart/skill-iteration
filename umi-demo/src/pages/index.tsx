@@ -1,6 +1,7 @@
 import yayJpg from '../assets/yay.jpg';
 
 export default function HomePage() {
+  console.log('这里是全局定义的 define:{FOO:"bar"}', FOO);
   return (
     <div>
       <h2>Yay! Welcome to umi!</h2>

@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'umi';
-import styles from './index.less';
+import styles from '@/layouts/index.less';
 
 /**相当于spa页面的入口 */
 export default function Layout() {
