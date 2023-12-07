@@ -1,14 +1,60 @@
-import { NavLink,Outlet } from "umi";
-export default function User() {
-    return (
-        <div> 
-            <h1>user 测试页</h1>
-            <nav>
-                <NavLink to='/user/xm'>小明</NavLink>
-                <NavLink to='/user/xy'>小杨</NavLink>
-            </nav>
-            <Outlet></Outlet>
-        </div>
-    );
+import { NavLink,Outlet, connect } from "umi";
+// import { connect } from "dva";
+
+
+function User(props) {
+  const { dispatch, loading } = props;
+
+  let loading1 = loading.effects["user/changDreamAsync"];
+  function onChangeDream() {
+    dispatch({
+      type: "user/changDream",
+      payload: "共同富裕时间" + Date.now(),
+    });
   }
-  
+  function onChangeDreamAsync() {
+    dispatch({
+      type: "user/changDreamAsync",
+      payload: "共同富裕时间" + Date.now(),
+    });
+  }
+  return (
+    <div>
+      <h1>个人信心</h1>
+      <div>common:{props.token}</div>
+      <div>这里是redux中user的数据</div>
+      <div>
+        name：
+        {props.name}
+      </div>
+      -------------------------
+      <div>
+        age：
+        {props.age}
+      </div>
+      -------------------------
+      <div>
+        dream：
+        {props.dream}
+        <button onClick={onChangeDream}>同步更新</button>
+        <button onClick={onChangeDreamAsync}>
+          {loading1 ? "正在更新中，请不要重复点击" : "异步更新"}
+        </button>
+      </div>
+      <div>
+        <NavLink to="/user/xm">小明同学</NavLink>
+        <NavLink to="/user/xy">小杨同学</NavLink>
+      </div>
+      <div>
+        <h4> 下方二级路由的内容 </h4>
+        <hr />
+        <Outlet></Outlet>
+      </div>
+    </div>
+  );
+}
+export default connect((state:any) => ({
+  ...state.user,
+  ...state.common,
+  loading: state.loading,
+}))(User);

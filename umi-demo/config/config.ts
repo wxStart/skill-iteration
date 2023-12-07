@@ -1,14 +1,12 @@
 import { defineConfig } from 'umi';
-import routes from './routes.ts';
+import routes from './routes';
 
 export default defineConfig({
   /**路由相关 */
   history: {
     type: 'hash',
   },
-  historyWithQuery:{
-    
-  },
+  historyWithQuery: {},
   routes,
   //   routes: [
   //     { path: '/', component: 'index' },
@@ -66,4 +64,9 @@ export default defineConfig({
   //   },
 
   ignoreMomentLocale: false,
+
+  /** 配置dva插件 */
+  plugins: ['@umijs/plugins/dist/dva'],
+  dva: {},
+  /** 配置dva插件 */
 });
