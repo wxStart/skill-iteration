@@ -1,26 +1,26 @@
 <script setup lang="ts">
-
+  // import 
 </script>
 
 <template>
-  <div>
+  <div :class="$style.root">
     <hospital-top />
-    app
+    <div :class="$style.content">
+      <router-view></router-view>
+    </div>
     <hospital-bottom />
   </div>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+<style module lang="scss">
+.root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+  .content {
+    flex: 1 0 30px;
+  }
 }
 </style>

@@ -1,15 +1,18 @@
 <template>
-  <div>底部</div>
+  <div :class="$style.root">wx &copy; 2023 ~ {{ nowYear }}</div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  setup() {
-    return {};
-  },
-});
+<script setup lang="ts">
+import { ref } from "vue";
+const nowYear = ref(new Date().getFullYear());
 </script>
 
-<style scoped></style>
+<style module lang="scss">
+.root {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: rgba($color: #000000, $alpha: 0.45);
+  color: #fff;
+}
+</style>
