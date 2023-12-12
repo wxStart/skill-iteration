@@ -8,6 +8,9 @@ import * as globalCom from "./global-component.ts";
 // 路由
 import router from "./router.ts";
 
+// ElementPlus
+import ElementPlus from "./element-plus.ts";
+
 export default (app: App): any => {
   // 注册全局组件
   Object.keys(globalCom).forEach((element: string): undefined => {
@@ -17,4 +20,6 @@ export default (app: App): any => {
 
   // 注册路由
   app.use(router);
+  // 注册ElementPlus
+  app.use(ElementPlus);
 };

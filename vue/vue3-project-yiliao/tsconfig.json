@@ -9,6 +9,7 @@
     /* Bundler mode */
     "moduleResolution": "node",
     "allowImportingTsExtensions": true,
+    
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -23,7 +24,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*":["src/*"]
-    }
+    },
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]

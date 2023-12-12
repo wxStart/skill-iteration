@@ -1,0 +1,2262 @@
+{
+    "code": 0,
+    "error": null,
+    "data": {
+        "lists": [
+            {
+                "hospitalName": "上海交通大学医学院附属瑞金医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市黄浦区瑞金二路197号(永嘉路口)",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "黄浦区",
+                "reason": "“高校附属医院，科教研一体化” “专家云集”",
+                "tags": [
+                    "三甲",
+                    "全国医院第4",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/100310.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海交通大学医学院附属瑞金医院&hospital=上海交通大学医学院附属瑞金医院&hospital_id=U_kWL78Q1tIFx0976NlJGg==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "华东区",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1000310",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%91%9E%E9%87%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%91%9E%E9%87%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%91%9E%E9%87%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%91%9E%E9%87%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%91%9E%E9%87%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%91%9E%E9%87%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%91%9E%E9%87%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%91%9E%E9%87%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1000310",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "复旦大学附属中山医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市徐汇区枫林路180号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "徐汇区",
+                "reason": "“有7个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "全国医院第5",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/102886.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=复旦大学附属中山医院&hospital=复旦大学附属中山医院&hospital_id=-Sb_AaQf-wC0b92DnJlk9g==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "华东区",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1002886",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%B1%B1%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%B1%B1%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%B1%B1%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%B1%B1%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%B1%B1%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%B1%B1%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%B1%B1%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E4%B8%AD%E5%B1%B1%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1002886",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "复旦大学附属华山医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市静安区乌鲁木齐中路12号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "静安区",
+                "reason": "“有7个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "全国医院第8",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/102883.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=复旦大学附属华山医院&hospital=复旦大学附属华山医院&hospital_id=KU3MTUOMHgoLycvMYIaRTw==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "华东区",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1004715",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E5%B1%B1%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E5%B1%B1%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E5%B1%B1%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E5%B1%B1%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E5%B1%B1%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E5%B1%B1%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E5%B1%B1%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E5%B1%B1%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1004715",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海交通大学医学院附属仁济医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市浦东新区浦建路160号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "浦东新区",
+                "reason": "“有10个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "全国医院第17",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/106357.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海交通大学医学院附属仁济医院&hospital=上海交通大学医学院附属仁济医院&hospital_id=47Xd4mKCpqQdfE26BkRljA==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "华东区",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1006357",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E4%BB%81%E6%B5%8E%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E4%BB%81%E6%B5%8E%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E4%BB%81%E6%B5%8E%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E4%BB%81%E6%B5%8E%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E4%BB%81%E6%B5%8E%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E4%BB%81%E6%B5%8E%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E4%BB%81%E6%B5%8E%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E4%BB%81%E6%B5%8E%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1006357",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海交通大学医学院附属第九人民医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市黄浦区制造局路639号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "黄浦区",
+                "reason": "“高校附属医院，科教研一体化” “开放床位数：1820”",
+                "tags": [
+                    "三甲",
+                    "华东医院第10",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/101381.jpg",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海交通大学医学院附属第九人民医院&hospital=上海交通大学医学院附属第九人民医院&hospital_id=7Ae9hSFkzx_RM1TeUA-MKQ==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "华东区",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1001381",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%AC%AC%E4%B9%9D%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%AC%AC%E4%B9%9D%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%AC%AC%E4%B9%9D%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%AC%AC%E4%B9%9D%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%AC%AC%E4%B9%9D%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%AC%AC%E4%B9%9D%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%AC%AC%E4%B9%9D%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E7%AC%AC%E4%B9%9D%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1001381",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "复旦大学附属肿瘤医院",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市徐汇区东安路270号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "徐汇区",
+                "reason": "“高校附属医院，科教研一体化” “创建于1931”",
+                "tags": [
+                    "三甲",
+                    "华东医院第14",
+                    "医保定点",
+                    "肿瘤医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1008512.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=复旦大学附属肿瘤医院&hospital=复旦大学附属肿瘤医院&hospital_id=OX90sMKEPdFSUckxkylTSA==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "华东区",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1008512",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E8%82%BF%E7%98%A4%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E8%82%BF%E7%98%A4%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E8%82%BF%E7%98%A4%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E8%82%BF%E7%98%A4%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E8%82%BF%E7%98%A4%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E8%82%BF%E7%98%A4%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E8%82%BF%E7%98%A4%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E8%82%BF%E7%98%A4%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1008512",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市第六人民医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市徐汇区宜山路600号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "徐汇区",
+                "reason": "“专家云集” “开放床位数：1950”",
+                "tags": [
+                    "三甲",
+                    "华东医院第12",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/100872.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海市第六人民医院&hospital=上海市第六人民医院&hospital_id=AibtOJj7qmloBpdUVbbgsQ==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "华东区",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1000872",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%85%AD%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%85%AD%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%85%AD%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%85%AD%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%85%AD%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%85%AD%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%85%AD%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%85%AD%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1000872",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海长海医院",
+                "depart": "",
+                "type": "",
+                "address": "上海市杨浦区长海路168号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "杨浦区",
+                "reason": "“有5个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "华东医院第13",
+                    "医保定点"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/102944.jpg",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海长海医院&hospital=上海长海医院&hospital_id=NOxRkfARojeS_FbEh1Q0vw==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "华东区",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1002944",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E9%95%BF%E6%B5%B7%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E9%95%BF%E6%B5%B7%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E9%95%BF%E6%B5%B7%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E9%95%BF%E6%B5%B7%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E9%95%BF%E6%B5%B7%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=1&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E9%95%BF%E6%B5%B7%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E9%95%BF%E6%B5%B7%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E9%95%BF%E6%B5%B7%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1002944",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市肺科医院",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市杨浦区政民路507号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "杨浦区",
+                "reason": "“创建于1933”",
+                "tags": [
+                    "三甲",
+                    "全国医院第42",
+                    "医保定点",
+                    "结核病医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1008536.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海市肺科医院&hospital=上海市肺科医院&hospital_id=qZVwgm1Fldr_0NGDfkQh8Q==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1003382",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%82%BA%E7%A7%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%82%BA%E7%A7%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%82%BA%E7%A7%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%82%BA%E7%A7%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%82%BA%E7%A7%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%82%BA%E7%A7%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%82%BA%E7%A7%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%82%BA%E7%A7%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1003382",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海天坛普华医院",
+                "depart": "",
+                "type": "综合",
+                "address": "红宝石路388号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "长宁区",
+                "reason": "“高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "综合医院"
+                ],
+                "logo": "https://magicpic.cdn.bcebos.com/file/hospital-management/186f5f4c-0326-449d-be19-d8f7643364d2.jpg",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去了解",
+                        "url": "https://health.baidu.com/doctordec/hospital/1036317",
+                        "swanUrl": "",
+                        "tracedata": "liaojie"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1036317",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E5%9D%9B%E6%99%AE%E5%8D%8E%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E5%9D%9B%E6%99%AE%E5%8D%8E%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E5%9D%9B%E6%99%AE%E5%8D%8E%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E5%9D%9B%E6%99%AE%E5%8D%8E%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E5%9D%9B%E6%99%AE%E5%8D%8E%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E5%9D%9B%E6%99%AE%E5%8D%8E%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E5%9D%9B%E6%99%AE%E5%8D%8E%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E5%9D%9B%E6%99%AE%E5%8D%8E%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1036317",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海交通大学医学院附属同仁医院",
+                "depart": "",
+                "type": "",
+                "address": "上海市长宁区仙霞路1111号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "长宁区",
+                "reason": "“有4个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三乙",
+                    "医保定点"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1003139.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海交通大学医学院附属同仁医院&hospital=上海交通大学医学院附属同仁医院&hospital_id=lscS7r1nfNBFOne867ud5A==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1003139",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1003139",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市奉贤区中心医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市奉贤区南桥新城南奉公路6600号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "奉贤区",
+                "reason": "“开放床位数：1000” “创建于1945”",
+                "tags": [
+                    "三乙",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/107069.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去了解",
+                        "url": "https://health.baidu.com/doctordec/hospital/1007069",
+                        "swanUrl": "",
+                        "tracedata": "liaojie"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1007069",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A5%89%E8%B4%A4%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A5%89%E8%B4%A4%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A5%89%E8%B4%A4%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A5%89%E8%B4%A4%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A5%89%E8%B4%A4%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A5%89%E8%B4%A4%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A5%89%E8%B4%A4%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%A5%89%E8%B4%A4%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1007069",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市闵行区中心医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市闵行区莘松路170号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "闵行区",
+                "reason": "“专家云集” “开放床位数：1000”",
+                "tags": [
+                    "三乙",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/101943.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海市闵行区中心医院&hospital=上海市闵行区中心医院&hospital_id=rHNB_sSp60ltGoJmLGIGJA==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1001943",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1001943",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市皮肤病医院",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市保德路1278号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "静安区",
+                "tags": [
+                    "三级",
+                    "医保定点",
+                    "专病防治院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/103217.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海市皮肤病医院&hospital=上海市皮肤病医院&hospital_id=jRoVNW8vVIZPXJ_vEAGVDQ==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1010082",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9A%AE%E8%82%A4%E7%97%85%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9A%AE%E8%82%A4%E7%97%85%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9A%AE%E8%82%A4%E7%97%85%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9A%AE%E8%82%A4%E7%97%85%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9A%AE%E8%82%A4%E7%97%85%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9A%AE%E8%82%A4%E7%97%85%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9A%AE%E8%82%A4%E7%97%85%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9A%AE%E8%82%A4%E7%97%85%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1010082",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "复旦大学附属浦东医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市浦东新区惠南镇拱为路2800号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "浦东新区",
+                "reason": "“有6个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三级",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/103072.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=复旦大学附属浦东医院&hospital=复旦大学附属浦东医院&hospital_id=aoYM9XEGYDLLyfopaiiwpg==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1003072",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%B5%A6%E4%B8%9C%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%B5%A6%E4%B8%9C%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%B5%A6%E4%B8%9C%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%B5%A6%E4%B8%9C%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%B5%A6%E4%B8%9C%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%B5%A6%E4%B8%9C%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%B5%A6%E4%B8%9C%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%B5%A6%E4%B8%9C%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1003072",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海交通大学医学院附属同仁医院西院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海长宁区仙霞路1111号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "长宁区",
+                "reason": "“高校附属医院，科教研一体化” “开放床位数：1200”",
+                "tags": [
+                    "三乙",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1003615.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去了解",
+                        "url": "https://health.baidu.com/doctordec/hospital/1003615",
+                        "swanUrl": "",
+                        "tracedata": "liaojie"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1003615",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2%E8%A5%BF%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2%E8%A5%BF%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2%E8%A5%BF%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2%E8%A5%BF%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2%E8%A5%BF%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2%E8%A5%BF%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2%E8%A5%BF%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E5%90%8C%E4%BB%81%E5%8C%BB%E9%99%A2%E8%A5%BF%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1003615",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市浦东新区人民医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海浦东新区川沙镇川环南路490号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "浦东新区",
+                "reason": "“专家云集” “开放床位数：800”",
+                "tags": [
+                    "三乙",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/101071.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海市浦东新区人民医院&hospital=上海市浦东新区人民医院&hospital_id=pOJt5Cj8YFNt9kOEeCTvIw==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1001071",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1001071",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市普陀区中心医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市普陀区兰溪路164号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "普陀区",
+                "reason": "“专家云集” “开放床位数：1000”",
+                "tags": [
+                    "三乙",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/101370.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海市普陀区中心医院&hospital=上海市普陀区中心医院&hospital_id=JfVwe-sMC9by7XICiQA_aw==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1001370",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1001370",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市松江区中心医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市松江区中山中路746号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "松江区",
+                "reason": "“专家云集” “开放床位数：805”",
+                "tags": [
+                    "三乙",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1004959.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=上海市松江区中心医院&hospital=上海市松江区中心医院&hospital_id=x0sfPNRe9ahrTKbbLH1rYA==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1004959",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%9D%BE%E6%B1%9F%E5%8C%BA%E4%B8%AD%E5%BF%83%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1004959",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "复旦大学附属儿科医院",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市闵行区万源路399号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "闵行区",
+                "reason": "“有5个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "全国医院第47",
+                    "医保定点",
+                    "儿童医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1001444.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail&sf_ref=search_50557&title=复旦大学附属儿科医院&hospital=复旦大学附属儿科医院&hospital_id=EQmQa34SKP2Tzmkp28xomg==&from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1001444",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%84%BF%E7%A7%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%84%BF%E7%A7%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%84%BF%E7%A7%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%84%BF%E7%A7%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%84%BF%E7%A7%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=1&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%84%BF%E7%A7%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=&frontDepartmentName=&hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%84%BF%E7%A7%91%E5%8C%BB%E9%99%A2&originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2&pd=med&rankType=0&resource_id=50390&sf_ref=search_50557&showDialog=0&title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%84%BF%E7%A7%91%E5%8C%BB%E9%99%A2&version=2&vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1001444",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "复旦大学附属眼耳鼻喉科医院",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市徐汇区汾阳路83号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "徐汇区",
+                "reason": "“高校附属医院，科教研一体化” “开放床位数：894”",
+                "tags": [
+                    "三甲",
+                    "全国医院第51",
+                    "医保定点",
+                    "耳鼻喉科医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1003418.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=复旦大学附属眼耳鼻喉科医院\u0026hospital=复旦大学附属眼耳鼻喉科医院\u0026hospital_id=wgJIKJ_9B-sjYI2f-lJ10Q==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1003418",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E7%9C%BC%E8%80%B3%E9%BC%BB%E5%96%89%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E7%9C%BC%E8%80%B3%E9%BC%BB%E5%96%89%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E7%9C%BC%E8%80%B3%E9%BC%BB%E5%96%89%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E7%9C%BC%E8%80%B3%E9%BC%BB%E5%96%89%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E7%9C%BC%E8%80%B3%E9%BC%BB%E5%96%89%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E7%9C%BC%E8%80%B3%E9%BC%BB%E5%96%89%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E7%9C%BC%E8%80%B3%E9%BC%BB%E5%96%89%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E7%9C%BC%E8%80%B3%E9%BC%BB%E5%96%89%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1003418",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海交通大学医学院附属新华医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市杨浦区控江路1665号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "杨浦区",
+                "reason": "“有15个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "全国医院第56",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/101626.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海交通大学医学院附属新华医院\u0026hospital=上海交通大学医学院附属新华医院\u0026hospital_id=FQeZpQrZGVkWPugX9mBrNQ==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1001626",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E6%96%B0%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E6%96%B0%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E6%96%B0%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E6%96%B0%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E6%96%B0%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E6%96%B0%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E6%96%B0%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%8C%BB%E5%AD%A6%E9%99%A2%E9%99%84%E5%B1%9E%E6%96%B0%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1001626",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海儿童医学中心",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市东方路1678号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "浦东新区",
+                "reason": "“高校附属医院，科教研一体化” “专家云集”",
+                "tags": [
+                    "三甲",
+                    "全国医院第71",
+                    "医保定点",
+                    "儿童医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1002934.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海儿童医学中心\u0026hospital=上海儿童医学中心\u0026hospital_id=l7DW7YhkP_APhFAtTHg7DQ==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1002934",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%84%BF%E7%AB%A5%E5%8C%BB%E5%AD%A6%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%84%BF%E7%AB%A5%E5%8C%BB%E5%AD%A6%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%84%BF%E7%AB%A5%E5%8C%BB%E5%AD%A6%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%84%BF%E7%AB%A5%E5%8C%BB%E5%AD%A6%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%84%BF%E7%AB%A5%E5%8C%BB%E5%AD%A6%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%84%BF%E7%AB%A5%E5%8C%BB%E5%AD%A6%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%84%BF%E7%AB%A5%E5%8C%BB%E5%AD%A6%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%84%BF%E7%AB%A5%E5%8C%BB%E5%AD%A6%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1002934",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市第一人民医院",
+                "depart": "",
+                "type": "综合",
+                "address": "武进路85号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "虹口区",
+                "reason": "“专家云集” “开放床位数：1820”",
+                "tags": [
+                    "三甲",
+                    "全国医院第79",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/105847.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市第一人民医院\u0026hospital=上海市第一人民医院\u0026hospital_id=-EkQ5CEqcO2CC0Muqc_ymQ==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1005847",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1005847",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市胸科医院",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市徐汇区淮海西路241号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "徐汇区",
+                "reason": "“有6个省市重点专科” “开放床位数：580”",
+                "tags": [
+                    "三甲",
+                    "全国医院第80",
+                    "医保定点",
+                    "胸科医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1008486.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市胸科医院\u0026hospital=上海市胸科医院\u0026hospital_id=HDToitiyf4gSvUw5t7C81g==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1008486",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%83%B8%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%83%B8%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%83%B8%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%83%B8%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%83%B8%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%83%B8%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%83%B8%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%83%B8%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1008486",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "复旦大学附属妇产科医院",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市黄浦区方斜路419号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "黄浦区",
+                "reason": "“高校附属医院，科教研一体化” “专家云集”",
+                "tags": [
+                    "三甲",
+                    "全国医院第85",
+                    "医保定点",
+                    "妇产医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1006288.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=复旦大学附属妇产科医院\u0026hospital=复旦大学附属妇产科医院\u0026hospital_id=FGz6KdeKT7oZvO8TBpVitg==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1006288",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%A6%87%E4%BA%A7%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%A6%87%E4%BA%A7%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%A6%87%E4%BA%A7%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%A6%87%E4%BA%A7%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%A6%87%E4%BA%A7%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%A6%87%E4%BA%A7%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%A6%87%E4%BA%A7%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%A6%87%E4%BA%A7%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1006288",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市精神卫生中心",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市徐汇区宛平南路600号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "徐汇区",
+                "reason": "“开放床位数：1878” “创建于1935”",
+                "tags": [
+                    "三甲",
+                    "全国医院第90",
+                    "医保定点",
+                    "精神病医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1002936.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市精神卫生中心\u0026hospital=上海市精神卫生中心\u0026hospital_id=1WzabIyMIqeodxJUr-2QUA==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1002936",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%B2%BE%E7%A5%9E%E5%8D%AB%E7%94%9F%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%B2%BE%E7%A5%9E%E5%8D%AB%E7%94%9F%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%B2%BE%E7%A5%9E%E5%8D%AB%E7%94%9F%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%B2%BE%E7%A5%9E%E5%8D%AB%E7%94%9F%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%B2%BE%E7%A5%9E%E5%8D%AB%E7%94%9F%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%B2%BE%E7%A5%9E%E5%8D%AB%E7%94%9F%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%B2%BE%E7%A5%9E%E5%8D%AB%E7%94%9F%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%B2%BE%E7%A5%9E%E5%8D%AB%E7%94%9F%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1002936",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市公共卫生临床中心",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市金山区漕廊公路2901号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "金山区",
+                "reason": "“专家云集” “开放床位数：660”",
+                "tags": [
+                    "三甲",
+                    "全国医院第93",
+                    "医保定点",
+                    "传染病医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1003142.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市公共卫生临床中心\u0026hospital=上海市公共卫生临床中心\u0026hospital_id=Bs0wnOQ-WywMTrQqcwW6Xw==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1003142",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E4%B8%B4%E5%BA%8A%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E4%B8%B4%E5%BA%8A%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E4%B8%B4%E5%BA%8A%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E4%B8%B4%E5%BA%8A%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E4%B8%B4%E5%BA%8A%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E4%B8%B4%E5%BA%8A%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E4%B8%B4%E5%BA%8A%E4%B8%AD%E5%BF%83\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E4%B8%B4%E5%BA%8A%E4%B8%AD%E5%BF%83\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1003142",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海长征医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市凤阳路415号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "黄浦区",
+                "reason": "“高校附属医院，科教研一体化” “专家云集”",
+                "tags": [
+                    "三甲",
+                    "全国医院第94",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/102945.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海长征医院\u0026hospital=上海长征医院\u0026hospital_id=8BB5tT8VUWtH6mCHWl-n0g==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1002945",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E9%95%BF%E5%BE%81%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E9%95%BF%E5%BE%81%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E9%95%BF%E5%BE%81%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E9%95%BF%E5%BE%81%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E9%95%BF%E5%BE%81%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E9%95%BF%E5%BE%81%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E9%95%BF%E5%BE%81%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E9%95%BF%E5%BE%81%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1002945",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市第十人民医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市静安区延长中路301号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "静安区",
+                "reason": "“有5个省市重点专科” “专家云集”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/102139.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市第十人民医院\u0026hospital=上海市第十人民医院\u0026hospital_id=KfmgGqmBepAE-LeneRC8rw==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1002139",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%8D%81%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%8D%81%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%8D%81%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%8D%81%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%8D%81%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%8D%81%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%8D%81%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E5%8D%81%E4%BA%BA%E6%B0%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1002139",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海中医药大学附属龙华医院",
+                "depart": "",
+                "type": "中医",
+                "address": "上海市宛平南路725号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "徐汇区",
+                "reason": "“有7个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "中医医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1004057.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海中医药大学附属龙华医院\u0026hospital=上海中医药大学附属龙华医院\u0026hospital_id=LfWwJhmn2Rqoc7t7Z6sPkQ==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1004057",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%BE%99%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%BE%99%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%BE%99%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%BE%99%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%BE%99%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%BE%99%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%BE%99%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%BE%99%E5%8D%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1004057",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市同济医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市普陀区新村路389号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "普陀区",
+                "reason": "“专家云集” “开放床位数：1500”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/102647.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市同济医院\u0026hospital=上海市同济医院\u0026hospital_id=0_fAvTFX614xLXKcWHhW1Q==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1002647",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%90%8C%E6%B5%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%90%8C%E6%B5%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%90%8C%E6%B5%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%90%8C%E6%B5%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%90%8C%E6%B5%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%90%8C%E6%B5%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%90%8C%E6%B5%8E%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%90%8C%E6%B5%8E%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1002647",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市儿童医院",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市普陀区泸定路355号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "普陀区",
+                "reason": "“专家云集” “开放床位数：550”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "儿童医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/1000658.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市儿童医院\u0026hospital=上海市儿童医院\u0026hospital_id=61N1cGvGA5z3XTMk54MsTw==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1000658",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%84%BF%E7%AB%A5%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%84%BF%E7%AB%A5%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%84%BF%E7%AB%A5%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%84%BF%E7%AB%A5%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%84%BF%E7%AB%A5%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%84%BF%E7%AB%A5%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%84%BF%E7%AB%A5%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%84%BF%E7%AB%A5%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1000658",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "复旦大学附属华东医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市静安区延安西路221号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "静安区",
+                "reason": "“高校附属医院，科教研一体化” “开放床位数：1300”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/107144.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=复旦大学附属华东医院\u0026hospital=复旦大学附属华东医院\u0026hospital_id=8hzD1g7iiAXL9rF3EoM64g==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1007144",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E4%B8%9C%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E4%B8%9C%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E4%B8%9C%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E4%B8%9C%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E4%B8%9C%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E4%B8%9C%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E4%B8%9C%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%8D%8E%E4%B8%9C%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1007144",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市东方医院",
+                "depart": "",
+                "type": "综合",
+                "address": "即墨路150号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "浦东新区",
+                "reason": "“高校附属医院，科教研一体化” “开放床位数：1800”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://magicpic.cdn.bcebos.com/file/hospital-management/efc84c72-799a-488b-b930-e0cd6408bb15.jpg",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市东方医院\u0026hospital=上海市东方医院\u0026hospital_id=zS4gTwiUu85C0Sr-jAITeA==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1007198",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%9C%E6%96%B9%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1007198",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海中医药大学附属曙光医院",
+                "depart": "",
+                "type": "中医",
+                "address": "上海市浦东新区张衡路528",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "浦东新区",
+                "reason": "“有6个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "中医医院"
+                ],
+                "logo": "https://med-hospital.cdn.bcebos.com/hospital-icons/107922.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海中医药大学附属曙光医院\u0026hospital=上海中医药大学附属曙光医院\u0026hospital_id=2liefMWusPl6R3oKab8GUQ==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1007922",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%9B%99%E5%85%89%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%9B%99%E5%85%89%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%9B%99%E5%85%89%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%9B%99%E5%85%89%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%9B%99%E5%85%89%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%9B%99%E5%85%89%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%9B%99%E5%85%89%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E6%9B%99%E5%85%89%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1007922",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市中医医院",
+                "depart": "",
+                "type": "中医",
+                "address": "上海市芷江中路274号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "虹口区",
+                "reason": "“专家云集” “开放床位数：530”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "中医医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/102940.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市中医医院\u0026hospital=上海市中医医院\u0026hospital_id=TKmBwGX09g3Jqiy5-QArpQ==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1002940",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%AD%E5%8C%BB%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%AD%E5%8C%BB%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%AD%E5%8C%BB%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%AD%E5%8C%BB%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%AD%E5%8C%BB%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%AD%E5%8C%BB%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%AD%E5%8C%BB%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E4%B8%AD%E5%8C%BB%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1002940",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海东方肝胆外科医院",
+                "depart": "",
+                "type": "综合",
+                "address": "上海市嘉定区墨玉北路700号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "嘉定区",
+                "reason": "“高校附属医院，科教研一体化” “开放床位数：1500”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "综合医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/102933.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海东方肝胆外科医院\u0026hospital=上海东方肝胆外科医院\u0026hospital_id=io5sVgPZc6qydmaL_OC-XQ==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1002933",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E8%82%9D%E8%83%86%E5%A4%96%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E8%82%9D%E8%83%86%E5%A4%96%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E8%82%9D%E8%83%86%E5%A4%96%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E8%82%9D%E8%83%86%E5%A4%96%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E8%82%9D%E8%83%86%E5%A4%96%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E8%82%9D%E8%83%86%E5%A4%96%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E8%82%9D%E8%83%86%E5%A4%96%E7%A7%91%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%9C%E6%96%B9%E8%82%9D%E8%83%86%E5%A4%96%E7%A7%91%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1002933",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海中医药大学附属岳阳中西医结合医院",
+                "depart": "",
+                "type": "中医",
+                "address": "上海市甘河路110号",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "虹口区",
+                "reason": "“有4个省市重点专科” “高校附属医院，科教研一体化”",
+                "tags": [
+                    "三甲",
+                    "医保定点",
+                    "中医医院"
+                ],
+                "logo": "https://med-fe.cdn.bcebos.com/hospital/logo/103415.png",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海中医药大学附属岳阳中西医结合医院\u0026hospital=上海中医药大学附属岳阳中西医结合医院\u0026hospital_id=ImzOqnTM076cbvLqTFyIPQ==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1006784",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%B2%B3%E9%98%B3%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%B2%B3%E9%98%B3%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%B2%B3%E9%98%B3%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%B2%B3%E9%98%B3%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%B2%B3%E9%98%B3%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%B2%B3%E9%98%B3%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%B2%B3%E9%98%B3%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E5%B2%B3%E9%98%B3%E4%B8%AD%E8%A5%BF%E5%8C%BB%E7%BB%93%E5%90%88%E5%8C%BB%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1006784",
+                "seoDepartmentUrl": ""
+            },
+            {
+                "hospitalName": "上海市第一妇婴保健院",
+                "depart": "",
+                "type": "专科",
+                "address": "上海市浦东新区上海市第一妇婴保健院(东院)",
+                "distance": "",
+                "province": "上海",
+                "city": "上海",
+                "area": "浦东新区",
+                "reason": "“有9个省市重点专科” “创建于1947”",
+                "tags": [
+                    "三甲",
+                    "妇产医院"
+                ],
+                "logo": "https://magicpic.cdn.bcebos.com/file/hospital-management/3c01c53d-0993-4e64-9a03-7eb7cd2a8f4b.jpg",
+                "labelText": [],
+                "honor": null,
+                "tagList": [
+                    {
+                        "name": "公立三甲",
+                        "selected": true,
+                        "key": "level",
+                        "value": "三甲"
+                    },
+                    {
+                        "name": "可问诊",
+                        "selected": true,
+                        "key": "isWenzhen",
+                        "value": "1"
+                    },
+                    {
+                        "name": "可挂号",
+                        "selected": true,
+                        "key": "isGuahao",
+                        "value": "1"
+                    }
+                ],
+                "button": [
+                    {
+                        "type": "1",
+                        "text": "去挂号",
+                        "url": "https://jiankang.baidu.com/med/pclp/template/#/wz/guahao?page=hospitaldetail\u0026sf_ref=search_50557\u0026title=上海市第一妇婴保健院\u0026hospital=上海市第一妇婴保健院\u0026hospital_id=ZIGRfGjMRfuXZub-GsLEyQ==\u0026from=hospitaltjlist",
+                        "swanUrl": "",
+                        "tracedata": "guahao"
+                    }
+                ],
+                "fudanRankAreaLoc": "",
+                "unifiUrl": "https://health.baidu.com/doctordec/hospital/1008519",
+                "rankAreaCardUrl": "https://expert.baidu.com/med/template/#/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E5%A6%87%E5%A9%B4%E4%BF%9D%E5%81%A5%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E5%A6%87%E5%A9%B4%E4%BF%9D%E5%81%A5%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaUrl": "/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E5%A6%87%E5%A9%B4%E4%BF%9D%E5%81%A5%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E5%A6%87%E5%A9%B4%E4%BF%9D%E5%81%A5%E9%99%A2\u0026version=2\u0026vn=med",
+                "rankAreaSwanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E5%A6%87%E5%A9%B4%E4%BF%9D%E5%81%A5%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=1\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E5%A6%87%E5%A9%B4%E4%BF%9D%E5%81%A5%E9%99%A2\u0026version=2\u0026vn=med",
+                "swanUrl": "http://VlKQRMSyT32ln2AG84dmTjW6qldpGsNk/pages/hospital/hospmain/index?distance=\u0026frontDepartmentName=\u0026hospital=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E5%A6%87%E5%A9%B4%E4%BF%9D%E5%81%A5%E9%99%A2\u0026originalQuery=%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%8C%BB%E9%99%A2\u0026pd=med\u0026rankType=0\u0026resource_id=50390\u0026sf_ref=search_50557\u0026showDialog=0\u0026title=%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E5%A6%87%E5%A9%B4%E4%BF%9D%E5%81%A5%E9%99%A2\u0026version=2\u0026vn=med",
+                "url": "https://health.baidu.com/doctordec/hospital/1008519",
+                "seoDepartmentUrl": ""
+            }
+        ]
+    }
+}
