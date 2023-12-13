@@ -26,14 +26,7 @@ const handleResponse = function (resData: any) {
   }
 };
 
-export type ResponseResult = {
-  ok: boolean;
-  code?: number;
-  status?: number;
-  data?: any;
-  error?: string;
-  message?: string;
-};
+
 
 // 响应拦截器
 request.interceptors.response.use(

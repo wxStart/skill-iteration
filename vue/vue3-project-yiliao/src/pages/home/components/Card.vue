@@ -15,10 +15,10 @@
 
 <script setup lang="ts">
 import type { HospitalItem } from "../home.d.ts";
+
 const props = defineProps(["item"]);
 
 const item: HospitalItem = props.item;
-
 </script>
 
 <style module lang="scss">

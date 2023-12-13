@@ -8,7 +8,7 @@
         <div :class="$style.hospital">
           <Card
             v-for="item in data.hospitals"
-            :key="((item as unknown) as HospitalItem).hospitalName"
+            :key="item.hospitalName"
             :class="$style.item"
             :item="item"
           />
@@ -34,11 +34,9 @@ import Search from "./components/Search.vue";
 import Classification from "./components/Classification.vue";
 import Card from "./components/Card.vue";
 import { onMounted, reactive } from "vue";
+import type { HospitalLists, HospitalResponse } from "./home.d.ts";
+import request from "@/uitls/request";
 
-// import jsonData from "./hospital.json";
-
-import type { HospitalItem } from "./home.d.ts";
-import request, { type ResponseResult } from "@/uitls/request";
 
 interface ClassificationRes {
   level: string;
@@ -53,7 +51,17 @@ interface queryListsParam {
   pageSize: number;
 }
 
-const data = reactive({
+interface Data {
+  kw: string;
+  level: string;
+  region: string;
+  hospitals: HospitalLists;
+  total: number;
+  page: number;
+  pageSize: number;
+}
+
+const data: Data = reactive({
   kw: "",
   level: "all",
   region: "all",
@@ -75,14 +83,14 @@ const onSearch = async (): Promise<void> => {
   console.log(params);
   let { lists, total } = await queryHospitals(params);
   data.total = total;
-  (data.hospitals as HospitalItem[]) = lists;
+  data.hospitals = lists;
 };
 
 const queryHospitals = async (params: queryListsParam) => {
   const { kw, level, region, page, pageSize } = params;
-  const result: ResponseResult = await request.get("/hospital.json");
+  const result: HospitalResponse = await request.get("/hospital.json");
   if (result.ok) {
-    let lists: HospitalItem[] = result.data.lists;
+    let lists: HospitalLists = result.data.lists;
 
     if (kw) {
       lists = lists.filter((el) => el.hospitalName.indexOf(kw) > -1);
@@ -100,7 +108,6 @@ const queryHospitals = async (params: queryListsParam) => {
     }
     return { total: len, lists: lists, page, pageSize };
   } else {
-
     return { total: 0, lists: [], page, pageSize };
   }
 };

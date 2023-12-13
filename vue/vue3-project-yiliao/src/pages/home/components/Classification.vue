@@ -84,9 +84,9 @@ let regionLists = ref([
   },
 ]);
 
-const level = ref("all");
+const level = ref<string>("all");
 
-const region = ref("all");
+const region = ref<string>("all");
 
 const onChangeLevel = (id: string) => {
   level.value = id;
