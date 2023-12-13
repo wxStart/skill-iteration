@@ -35,9 +35,10 @@ import Classification from "./components/Classification.vue";
 import Card from "./components/Card.vue";
 import { onMounted, reactive } from "vue";
 
-import jsonData from "./hospital.json";
+// import jsonData from "./hospital.json";
 
 import type { HospitalItem } from "./home.d.ts";
+import request, { type ResponseResult } from "@/uitls/request";
 
 interface ClassificationRes {
   level: string;
@@ -79,23 +80,29 @@ const onSearch = async (): Promise<void> => {
 
 const queryHospitals = async (params: queryListsParam) => {
   const { kw, level, region, page, pageSize } = params;
-  let result = [...jsonData.data.lists];
-  if (kw) {
-    result = result.filter((el) => el.hospitalName.indexOf(kw) > -1);
-  }
-  if (level !== "all") {
-    result = result.filter((el) => el.tags.includes(level));
-  }
-  if (region !== "all") {
-    result = result.filter((el) => el.area == region);
-  }
+  const result: ResponseResult = await request.get("/hospital.json");
+  if (result.ok) {
+    let lists: HospitalItem[] = result.data.lists;
 
-  let startIndex = (page - 1) * pageSize;
-  let len = result.length;
-  if (len >= startIndex) {
-    result = result.slice(startIndex, startIndex + pageSize);
+    if (kw) {
+      lists = lists.filter((el) => el.hospitalName.indexOf(kw) > -1);
+    }
+    if (level !== "all") {
+      lists = lists.filter((el) => el.tags.includes(level));
+    }
+    if (region !== "all") {
+      lists = lists.filter((el) => el.area == region);
+    }
+    const startIndex = (page - 1) * pageSize;
+    const len = lists.length;
+    if (len >= startIndex) {
+      lists = lists.slice(startIndex, startIndex + pageSize);
+    }
+    return { total: len, lists: lists, page, pageSize };
+  } else {
+
+    return { total: 0, lists: [], page, pageSize };
   }
-  return { total: len, lists: result, page, pageSize };
 };
 
 const onChangeKw = (kw: string): void => {
@@ -114,7 +121,7 @@ const handleCurrentChange = (val: number) => {
   onSearch();
 };
 
-onMounted(() => {
+onMounted(async () => {
   onSearch();
 });
 </script>
