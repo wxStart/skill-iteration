@@ -20,6 +20,8 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import { Search } from "@element-plus/icons-vue";
+import type { HospitalResponse, HospitalLists } from "@/api/home/type";
+import { reqHospitalLists } from "@/api/home/index";
 
 export interface Props {
   placeholder: string;
@@ -42,37 +44,29 @@ const input = ref("");
 
 interface RestaurantItem {
   value: string;
-  link: string;
 }
 
 const restaurants = ref<RestaurantItem[]>([]);
 
-const querySearch = (queryString: string, cb: any) => {
-  const results = queryString
-    ? restaurants.value.filter(createFilter(queryString))
-    : restaurants.value;
-  // call callback function to return suggestions
+const querySearch = async (queryString: string, cb: any) => {
+  const results = await queryHospitals(queryString);
   cb(results);
 };
 
-const createFilter = (queryString: string) => {
-  return (restaurant: RestaurantItem) => {
-    return (
-      restaurant.value.toLowerCase().indexOf(queryString.toLowerCase()) === 0
-    );
-  };
-};
-
-const loadAll = () => {
-  return [
-    { value: "vue", link: "https://github.com/vuejs/vue" },
-    { value: "element", link: "https://github.com/ElemeFE/element" },
-    { value: "cooking", link: "https://github.com/ElemeFE/cooking" },
-    { value: "mint-ui", link: "https://github.com/ElemeFE/mint-ui" },
-    { value: "vuex", link: "https://github.com/vuejs/vuex" },
-    { value: "vue-router", link: "https://github.com/vuejs/vue-router" },
-    { value: "babel", link: "https://github.com/babel/babel" },
-  ];
+const queryHospitals = async (kw?: string) => {
+  const params = { page: 1, pageSize: 1000 };
+  const result: HospitalResponse = await reqHospitalLists(params);
+  if (result.ok) {
+    let lists: HospitalLists = (result.data && result.data.lists) || [];
+    if (kw) {
+      lists = lists.filter((el) => el.hospitalName.indexOf(kw) > -1);
+    }
+    return lists.map((el) => ({
+      value: el.hospitalName,
+    }));
+  } else {
+    return [] as RestaurantItem[];
+  }
 };
 
 // const handleSelect = (item: RestaurantItem) => {
@@ -84,10 +78,8 @@ const onSearch = () => {
   emit("onSearch", input.value);
 };
 
-
-
-onMounted(() => {
-  restaurants.value = loadAll();
+onMounted(async () => {
+  restaurants.value = await queryHospitals();
 });
 </script>
 

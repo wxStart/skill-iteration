@@ -34,21 +34,16 @@ import Search from "./components/Search.vue";
 import Classification from "./components/Classification.vue";
 import Card from "./components/Card.vue";
 import { onMounted, reactive } from "vue";
-import type { HospitalLists, HospitalResponse } from "./home.d.ts";
-import request from "@/uitls/request";
-
+import type {
+  queryListsParam,
+  HospitalResponse,
+  HospitalLists,
+} from "@/api/home/type";
+import { reqHospitalLists } from "@/api/home/index";
 
 interface ClassificationRes {
   level: string;
   region: string;
-}
-
-interface queryListsParam {
-  kw: string;
-  level: string;
-  region: string;
-  page: number;
-  pageSize: number;
 }
 
 interface Data {
@@ -73,7 +68,7 @@ const data: Data = reactive({
 
 const onSearch = async (): Promise<void> => {
   const { kw, level, region, page, pageSize } = data;
-  const params = {
+  const params: queryListsParam = {
     kw,
     level,
     region,
@@ -87,11 +82,10 @@ const onSearch = async (): Promise<void> => {
 };
 
 const queryHospitals = async (params: queryListsParam) => {
-  const { kw, level, region, page, pageSize } = params;
-  const result: HospitalResponse = await request.get("/hospital.json");
+  const { kw, level = "", region, page, pageSize } = params;
+  const result: HospitalResponse = await reqHospitalLists(params);
   if (result.ok) {
-    let lists: HospitalLists = result.data.lists;
-
+    let lists: HospitalLists = (result.data && result.data.lists) || [];
     if (kw) {
       lists = lists.filter((el) => el.hospitalName.indexOf(kw) > -1);
     }
@@ -150,3 +144,4 @@ onMounted(async () => {
   }
 }
 </style>
+@/api/home/type

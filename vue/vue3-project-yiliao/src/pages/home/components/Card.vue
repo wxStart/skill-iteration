@@ -1,6 +1,6 @@
 <template>
   <el-card shadow="hover">
-    <div :class="$style.item">
+    <div :class="$style.item" @click="toHospital">
       <img :class="$style.logo" :src="item.logo" :alt="item.hospitalName" />
       <div :class="$style.content">
         <div>{{ item.hospitalName }}</div>
@@ -14,11 +14,17 @@
 </template>
 
 <script setup lang="ts">
-import type { HospitalItem } from "../home.d.ts";
+import { type HospitalItem } from "@/api/home/type";
+import { useRouter } from "vue-router";
 
 const props = defineProps(["item"]);
-
 const item: HospitalItem = props.item;
+
+const router = useRouter();
+
+const toHospital = () => {
+  router.push("/hospital/registration");
+};
 </script>
 
 <style module lang="scss">
@@ -45,3 +51,4 @@ const item: HospitalItem = props.item;
   }
 }
 </style>
+@/api/home/type
