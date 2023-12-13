@@ -17,12 +17,17 @@
 import { type HospitalItem } from "@/api/home/type";
 import { useRouter } from "vue-router";
 
+import { useCommonHospitalStore } from "@/store/modules/setup";
+
 const props = defineProps(["item"]);
 const item: HospitalItem = props.item;
 
 const router = useRouter();
 
+const { setActiveHospital } = useCommonHospitalStore();
+
 const toHospital = () => {
+  setActiveHospital(item);
   router.push("/hospital/registration");
 };
 </script>

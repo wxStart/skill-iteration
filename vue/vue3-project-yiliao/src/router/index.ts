@@ -22,6 +22,15 @@ export default createRouter({
         },
       ],
     },
+
+    {
+      path: "/test1",
+      component: () => import("@/pages/test/index1.vue"),
+    },
+    {
+      path: "/test2",
+      component: () => import("@/pages/test/index2.vue"),
+    },
     {
       path: "/",
       redirect: "/home",
