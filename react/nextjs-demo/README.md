@@ -26,8 +26,34 @@ app 路由模式
     <!-- 路由3-1 切换到3-2时候 公共的layout2可以重新渲染  -->
 ```
 
-### Metadata [文档](https://nextjs.org/docs/app/api-reference/functions/generate-metadata) 
+#### 导航 `useRouter`
+##### 组件导航
+```
+    import Link from 'next/link'
+    
+    <Link href="/dashboard" scroll={false}>
+        Dashboard
+    </Link>
+
+```
+
+##### 编程式导航
+```
+    import { useRouter } from 'next/navigation'
+    const router = useRouter()
+    router.push('/dashboard', )
+```
+
+#### 路由组
+带“()” 的目录，不会出现在路由路径中，可以给分组设置不同的`layout`层
+
+
+
+
+### Metadata [文档](https://nextjs.org/docs/app/api-reference/functions/generate-metadata)
+
 ```
 import { Metadata } from "next";
 ```
+
 `Metadata` 设置页面 `head`的一些属性
