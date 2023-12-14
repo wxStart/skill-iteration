@@ -25,3 +25,9 @@ app 路由模式
     layout1-template1-layout2-page3-2
     <!-- 路由3-1 切换到3-2时候 公共的layout2可以重新渲染  -->
 ```
+
+### Metadata [文档](https://nextjs.org/docs/app/api-reference/functions/generate-metadata) 
+```
+import { Metadata } from "next";
+```
+`Metadata` 设置页面 `head`的一些属性
