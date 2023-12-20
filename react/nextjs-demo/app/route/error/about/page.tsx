@@ -7,7 +7,7 @@ export default function Page() {
       <h1>/error/about</h1>
       <div style={{ height: "300px" }}>
          about
-        <div>error 》about {a.b.c}</div>
+        {/* <div>error 》about {a.b.c}</div> */}
       </div>
     </div>
   );
