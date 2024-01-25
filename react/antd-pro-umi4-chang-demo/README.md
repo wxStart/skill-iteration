@@ -1,57 +1,39 @@
-# Ant Design Pro
+### 多语言的改造（引入不在他定义的版本里面）
+1. 创建要引入的语言包`en-IN.ts`
+2. 调整`SelectLang`组件对语言的处理函数`postLocalesData`
+我这里是针对印度的语言进行了调整（同时注意封装的`SelectLang`）
+``` tsx
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+export const SelectLang = (props:any ={}) => {
 
-## Environment Prepare
 
-Install `node_modules`:
+  const postLocalesData = (langs: LocalData[])=>{
 
-```bash
-npm install
+ let result: LocalData[] = []
+    if(props?.postLocalesData &&  isFunction(props.postLocalesData) ){
+      result = props.postLocalesData(langs) as LocalData[];
+    }else{
+      result = langs;
+    }
+    return result.map(el => {
+      if (el.lang === 'en-IN') {
+        el.icon = '🇮🇳';
+        el.label = 'भारत';
+        el.title = 'भारत';
+      }
+      return el
+    });
+  }
+
+
+  return (
+    <UmiSelectLang
+      style={{
+        padding: 4,
+      }}
+      postLocalesData={postLocalesData}
+      {...props}
+    />
+  );
+};
 ```
-
-or
-
-```bash
-yarn
-```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
