@@ -27,6 +27,18 @@ const routes = defineConfig({
       ],
     },
     {
+      path: '/count1',
+      name: 'welcome',
+      icon: 'smile',
+      component: './Count/Count1',
+    },
+    {
+      path: '/count2',
+      name: 'welcome',
+      icon: 'smile',
+      component: './Count/Count2',
+    },
+    {
       path: '/welcome',
       name: 'welcome',
       icon: 'smile',
