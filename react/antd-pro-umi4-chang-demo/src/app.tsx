@@ -6,7 +6,7 @@ import type { RunTimeLayoutConfig } from '@umijs/max';
 import { history, Link } from '@umijs/max';
 import defaultSettings from '../config/defaultSettings';
 import { errorConfig } from './requestErrorConfig';
-import { currentUser as queryCurrentUser } from '@/services/ant-design-pro/api';
+// import { currentUser as queryCurrentUser } from '@/services/ant-design-pro/api';
 import React from 'react';
 const isDev = process.env.NODE_ENV === 'development';
 const loginPath = '/user/login';
@@ -18,16 +18,36 @@ export async function getInitialState(): Promise<{
   settings?: Partial<LayoutSettings>;
   currentUser?: API.CurrentUser;
   loading?: boolean;
-  fetchUserInfo?: () => Promise<API.CurrentUser | undefined>;
+  fetchUserInfo?: (userName?: string) => Promise<API.CurrentUser | undefined>;
 }> {
-  const fetchUserInfo = async () => {
+  const fetchUserInfo = async (userName?: string) => {
     try {
-      const msg = await queryCurrentUser({
-        skipErrorHandler: true,
-      });
+      // const msg = await queryCurrentUser({
+      //   skipErrorHandler: true,
+      // });
+      let msg = {
+        data: {},
+      };
+      const str = sessionStorage.getItem('login_user');
+      console.log('userName: ', userName);
+
+      if (userName) {
+        msg = {
+          data: {
+            name: userName,
+            access: userName,
+          },
+        };
+      } else if (str) {
+        msg = {
+          data: JSON.parse(str),
+        };
+      }
+      sessionStorage.setItem('login_user', JSON.stringify(msg.data));
       return msg.data;
     } catch (error) {
       history.push(loginPath);
+      sessionStorage.removeItem('login_user');
     }
     return undefined;
   };
