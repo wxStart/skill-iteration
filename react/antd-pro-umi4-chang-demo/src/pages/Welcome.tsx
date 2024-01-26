@@ -1,7 +1,8 @@
 import { PageContainer } from '@ant-design/pro-components';
 import { useModel } from '@umijs/max';
-import { Card, theme } from 'antd';
+import { Card, theme,Button } from 'antd';
 import React from 'react';
+import { flushSync } from 'react-dom';
 
 /**
  * 每个单独的卡片，为了复用样式抽成了组件
@@ -83,11 +84,30 @@ const InfoCard: React.FC<{
   );
 };
 
+const TitleBtn: React.FC = ()=>{
+  const { initialState, setInitialState } = useModel('@@initialState');
+
+  const onClick = ()=>{
+    flushSync(() => {
+      setInitialState((s) => {
+        return ({
+          ...s,
+          settings:{...s?.settings,title:'小星星'}
+        })
+      });
+    });
+  }
+  console.log('initialState?.settings:11123 ', initialState?.settings?.title);
+  return ( <Button type="primary" onClick={onClick} >{initialState?.settings?.title}</Button>)
+  
+}
+
 const Welcome: React.FC = () => {
   const { token } = theme.useToken();
-  const { initialState } = useModel('@@initialState');
+  const { initialState  } = useModel('@@initialState');
   return (
     <PageContainer>
+      <TitleBtn></TitleBtn>
       <Card
         style={{
           borderRadius: 8,

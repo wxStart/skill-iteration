@@ -37,3 +37,8 @@ export const SelectLang = (props:any ={}) => {
   );
 };
 ```
+
+### 替换logo等
+1. 头部的logo `defaultSettings.ts`
+
+
