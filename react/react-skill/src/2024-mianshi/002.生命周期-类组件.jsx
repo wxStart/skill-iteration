@@ -156,7 +156,8 @@ class Son extends React.Component {
   }
 }
 
-function Index() {
+function index() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [show, setShow] = React.useState(true);
 
   return (
@@ -175,4 +176,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default index;
