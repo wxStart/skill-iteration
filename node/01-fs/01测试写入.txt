@@ -1,0 +1,4 @@
+你好，fs模块
+我是后面追加的内容
+我是appendFile追加的内容
+我是writeFile追加的内容
