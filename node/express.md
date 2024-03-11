@@ -101,5 +101,7 @@ app.get('/setting', checkCodeMiddleware, (req, res) => {
 ### 常用的中间件
 1. 静态资源目录： express内置了中间件 `express.static(静态资源目录)`
 2. 获取请求体数据： body-parser
+3. 处理cookie：cookie-parser
+4. session操作：express-session
 
 ## express-generator  工程模版生成器
