@@ -10,3 +10,9 @@
 ##### vue3+ts 工程化
 `vue3 + pinia  + vue-router + element-plus + typescript`
 [参考项目](https://github.com/wxStart/vue3-mallManagement)
+
+
+
+### 移动端 +app
+#### flutter + dart
+1. 知识点 [参考工程](https://github.com/wxStart/flutter-dart-zhishi)
