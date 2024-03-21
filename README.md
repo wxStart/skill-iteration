@@ -11,6 +11,9 @@
 `vue3 + pinia  + vue-router + element-plus + typescript`
 [参考项目](https://github.com/wxStart/vue3-mallManagement)
 
+### webpack5 相关知识点
+
+[参考项目](https://github.com/wxStart/webpack-5)
 
 
 ### 移动端 +app
