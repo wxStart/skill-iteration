@@ -8,7 +8,7 @@
 
 2. 在组件内部获取公共状态信息，然后渲染组件
 
-```
+```js
     const state = store.getState()
 ```
 
@@ -23,7 +23,7 @@
 4. 更新数据 通过派发任务
    a. 创建store时候，传递reducer
 
-   ```
+   ```js
        const reducer = function (state=initVal, action) {
            // state 容器中的状态
            // action :派发的行为对象 必须具备type属性

@@ -25,6 +25,13 @@ app.get('/json-file', (req, res) => {
 });
 
 app.get('/json', (req, res) => {
+  console.log(req.method);
+  console.log(req.url);
+  console.log(req.httpVersion);
+  console.log(req.headers);
+  res.json({ a: '122', b: 123 });
+});
+app.post('/data1', (req, res) => {
   res.json({ a: '122', b: 123 });
 });
 

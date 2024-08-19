@@ -27,9 +27,9 @@
 
 变动点：<br/>
 
-1. Switch组件被移除，由 `Routes`
-2. Redirect组件被移除，由`Navigate`替代
-3. withRouter组件被移除，自己写高级组件代替
+1. Switch组件被移除，由 `Routes`。
+2. Redirect组件被移除，由`Navigate`替代。
+3. withRouter组件被移除，自己写高级组件代替。
 
 4. 所有的匹配规则放在Routes中2. 每条匹配规则还是基于Route<br/>
    4.1 路由匹配成功，不在基于component/render 控制渲染组件 而是基于 `element`属性， 语法格式`<Component />` <br/>  
@@ -39,7 +39,8 @@
    5.1 遇到Navigate组件就会跳转4. 要求所有的路由（二级或者多级路由），不在分散到各个组件中编写，而是统一写在一起进行处理；<br/>
 6. 当前组件是基于Route匹配渲染，也不会基于props传递`history  location   match`,需要使用hooks进行获取<br/>
 7. `useNavigate`获取编程式导航跳转函数，隐式传参刷新页面传递的参数还是有的，v5没有保留隐式传参的参数 <br/>
-8. `useMatch`获取不到url上路径参数，需要使用`useParams`<br/>
+8. `useMatch`获取不到url上路径参数，需要使用`useParams`<br/>。
+
 
 #### 常用的hooks
 
@@ -47,3 +48,7 @@
 2. useLocation
 3. useParams 替代v5中的useRouteMatch
 4. useSearchParams 获取url上?传参
+
+
+
+
