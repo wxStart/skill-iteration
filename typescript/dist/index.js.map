@@ -1,12 +1,1 @@
-{
-  "version": 3,
-  "file": "index.js",
-  "sources": [
-    "../src/index.ts"
-  ],
-  "sourcesContent": [
-    "let a_a:string = '123';\nconsole.log(a_a);"
-  ],
-  "names": [],
-  "mappings": ";;;CAAA,IAAI,GAAG,GAAU,KAAK;CACtB,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC;;;;;;"
-}
+{"version":3,"file":"index.js","sources":["../src/index.ts"],"sourcesContent":["let s1: string = \"123\";\nlet n1: number = 123;\nlet b1: boolean = true;\n\n// 大写是装饰类型 一般都是包装类\nlet s2: String = new String(\"123\");\n// s1 = s2; 报错\ns2 = s1;\n\nlet nArr: number[] = [1, 2, 3];\nlet sArr: string[] = [\"1\", \"2\", \"3\"];\nlet nOrSArr: (number | string)[] = [1, \"2\", 3];\nlet s1Arr: Array<string> = [\"1\", \"2\", \"3\"];\n\n// 元组 固定长度的数组, 越界访问报错\nlet t1: [string, number] = [\"123\", 123];\nlet t2 = [\"123\", 123, true];\nt2.push('456');\nt1.push('456'); // 元祖可以使用数组的方法\n// t1[2] = '456';  报错 元组的元素是固定的 不能改变\n\n\n\nenum Color {\n  Red,\n  Green,\n  Blue,\n}\n\nexport {};\n"],"names":[],"mappings":";;;EAmBA;EAIA,IAAK,KAIJ;EAJD,CAAA,UAAK,KAAK,EAAA;EACR,IAAA,KAAA,CAAA,KAAA,CAAA,KAAA,CAAA,GAAA,CAAA,CAAA,GAAA,KAAG;EACH,IAAA,KAAA,CAAA,KAAA,CAAA,OAAA,CAAA,GAAA,CAAA,CAAA,GAAA,OAAK;EACL,IAAA,KAAA,CAAA,KAAA,CAAA,MAAA,CAAA,GAAA,CAAA,CAAA,GAAA,MAAI;EACN,CAAC,EAJI,KAAK,KAAL,KAAK,GAAA,EAAA,CAAA,CAAA;;;;;;"}
