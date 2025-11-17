@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sources": [
+    "../src/index.ts"
+  ],
+  "sourcesContent": [
+    "let a_a:string = '123';\nconsole.log(a_a);"
+  ],
+  "names": [],
+  "mappings": ";;;CAAA,IAAI,GAAG,GAAU,KAAK;CACtB,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC;;;;;;"
+}
